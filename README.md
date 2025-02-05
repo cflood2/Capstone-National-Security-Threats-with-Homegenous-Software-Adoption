@@ -56,7 +56,7 @@ What do you need to be successful?
 ## First Sprint Plan
 Create the first plan on GitHub Kanban
 
-##Preliminary sources and other stuff
+## Preliminary sources and other stuff
 Computer Security Division, Information Technology Laboratory. “NIST Publishes SP 800-218A | CSRC.” CSRC | NIST, 23 July 2024, https://csrc.nist.gov/news/2024/nist-publishes-sp-800218a.
 CrowdStrike. External Technical Root Cause Analysis Channel File 291. 25 July 2024, p. 12, https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf.
 “CrowdStrike Outage Explained: What Caused It and What’s next.” WhatIs, https://www.techtarget.com/whatis/feature/Explaining-the-largest-IT-outage-in-history-and-whats-next. Accessed 2 Feb. 2025.
