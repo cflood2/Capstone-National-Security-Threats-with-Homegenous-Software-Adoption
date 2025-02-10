@@ -19,6 +19,9 @@ example chart of scope
 |Scope Creep  | Impact     | Likelihood | Description |
 |-------------------|------------|------------|-------------|
 |Some risk (40) | 6 | 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |
+|Some risk (40) | 6 | 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |
+|Some risk (40) | 6 | 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |
+|Some risk (40) | 6 | 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |
 
 Example of Known Common Vulnerabilities Exploits (CVE) in traditional software
 Name and Description: Improper Privilege Management	
