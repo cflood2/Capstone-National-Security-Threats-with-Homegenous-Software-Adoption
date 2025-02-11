@@ -41,6 +41,6 @@ NOTES from 02/10/2025:
 - [ ] How many case studies - 3
     - [ ]  CrowdStrike
     - [ ]  EPIC
-    - [ ]  ???
+    - [ ]  Solarwinds
 - [ ] How many sources (15)
 - [ ] 
