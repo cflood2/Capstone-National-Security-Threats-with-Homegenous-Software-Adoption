@@ -12,7 +12,8 @@
 - Conduct Case study on Ukraine cyber war
 - Conduct case study on EPIC
 - Create and/or simulate the reach of an incident using NetLogo  
-- Address supply chain management concerns  
+- Address supply chain management concerns
+  
 ### Goals:
 - Create guidelines for software adoption to add to existing policy
 - Create guidelines for the USFG to consider in M&A filings
