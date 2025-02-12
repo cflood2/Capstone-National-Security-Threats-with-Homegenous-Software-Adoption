@@ -1,6 +1,5 @@
-# **Executive Summary:**
-
-&nbsp; Modern infrastructure enables adversaries to disable entire companies or agencies with a single attack. This problem amplifies when a single company dominates specific industries or services, such as banking or food production. This paper attempts to create policy recommendations and a new cybersecurity theory addressing cybersecurity risks associated with highly consolidated industries and horizontal software assimilation Such as EPIC or CrowdStrike. If company A produces 75% of poultry for a nation, what happens if the company gets hacked? How long could the company shut down before people began to starve?  
+# **Executive Summary:*
+&nbsp; Modern infrastructure enables adversaries to disable/disrupt entire companies or agencies with single cyber attack. This problem amplifies when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food. This paper attempts to create policy recommendations and a new cybersecurity theory addressing cybersecurity risks associated with highly consolidated industries and horizontal software assimilation Such as EPIC or CrowdStrike. If company A produces 75% of poultry for a nation, what happens if the company gets hacked? How long could the company shut down before people began to starve?  
 <br/>
 &nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions between large companies in addition to companies accounting for this risk in the decision-making process.  
 <br/>
