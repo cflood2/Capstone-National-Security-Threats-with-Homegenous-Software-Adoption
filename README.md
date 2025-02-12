@@ -1,5 +1,5 @@
 # **Executive Summary:*
-&nbsp; Modern infrastructure enables adversaries to disable/disrupt entire companies or agencies with single cyber attack. This problem amplifies when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food. This paper attempts to create policy recommendations and a new cybersecurity theory addressing cybersecurity risks associated with highly consolidated industries and horizontal software assimilation Such as EPIC or CrowdStrike. If company A produces 75% of poultry for a nation, what happens if the company gets hacked? How long could the company shut down before people began to starve?  
+&nbsp; Modern infrastructure enables adversaries to disable/disrupt entire companies or agencies with single cyber attack. This problem amplifies when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food. This paper will attempt to help create a recommendation theory in cybersecurity. This newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For exmple, if company A produces 75% of poultry for a nation, what would happen if company A is compromised due to a cyber attack?  How long could a company remain inoperable or completely shut down which would impact the people who rely on those services globally? 
 <br/>
 &nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions between large companies in addition to companies accounting for this risk in the decision-making process.  
 <br/>
@@ -30,17 +30,12 @@ In recent years, there have been increased software vulnerabilities in both the 
 
 There are several industry standards and best practices software model frameworks for both the public and private sectors to use for software adoption. The government is required to follow strict guidance while maintaining industry best practice and standards in software assurance. Industries in both the public and private sectors not only must follow rules and strict guidelines but must be held accountable when making information in the software development lifecycle. 
 
-
-### Project Goals:  
-To implement the following in the software assurance process:
-
 #### To Review the following:
  -Case Studies
  -Attack Models
  -Risk Analysis
-#### Implementation
-#### Project Objectives:
-To implement a secure baseline throughout the software development lifecycle. This implementation will help software developers make informative decisions and identify weaknesses in their software design process. The goal is to decrease vulnerabilities and mitigate potential risks in the software development lifecycle and to apply industry best practices and standards in the SDLC process.
+#### Implementation:
+-Create and/or simulate the reach of an incident using NetLogo
 
 # **Proposed Project Timeline**
 - [ ] Identifies major tasks  
