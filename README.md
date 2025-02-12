@@ -1,13 +1,23 @@
 # **Executive Summary:**
-### Rubric checklsit - Make sure all these boxes are checked off out based on M1 rubric. Check M1 doc for more detailed requirements per box.
-- [ ] Problem statement  
-- [ ] Project goals  
-- [ ] Project Merit  
-- [ ] Length  
-- [ ] Grammar, spelling, syntax  
-- [ ] Use of markdown  
-## !!Remove checklist before submitting for assignemnt!!
-  
+
+&nbsp; Modern infrastructure enables adversaries to disable entire companies or agencies with a single attack. This problem amplifies when a single company dominates specific industries or services, such as banking or food production. This paper attempts to create policy recommendations and a new cybersecurity theory addressing cybersecurity risks associated with highly consolidated industries and horizontal software assimilation Such as EPIC or CrowdStrike. If company A produces 75% of poultry for a nation, what happens if the company gets hacked? How long could the company shutdown before people began to starve?  
+<br/>
+&nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk to is important when the Federal Trade Commission examines mergers and acquisitions between large companies in addition to companies accounting for this risk in the decision-making process.  
+<br/>
+&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST CSWP. This paper will also propose to addendums to the Sharman Act, the Federal Trade Commission Act, or Clayton Act.
+
+### Objectives:
+- Conduct case study on CrowdStrike incident
+- Conduct case study on SolarWinds Incident
+- Conduct Case study on Ukraine cyber war
+- Conduct case study on EPIC
+- Create and/or simulate the reach of an incident
+- Address supply chain management concerns
+### Goals:
+- Create guidelines for software adoption to add to existing policy
+- Create guidelines for the USFG to consider in M&A filings
+
+
 On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
 
 A report was conducted which concluded CrowdStrike did not follow proper procedures and protocols in reducing risk nor mitigated the software development lifecycle process.
@@ -70,9 +80,7 @@ To implement a secure baseline throughout the software development lifecycle. Th
 |-------------------|------------|------------|-------------|
 |Resources (50)|9|9|Due to the availability of personnel, the project may be delayed due to unforeseen issues, i.e., family, health, work issues, etc.|
 |Testing Environment (50)|9|9|The equipment needed to conduct test may not be available|
-|Funding (50)|0|0|The resource manager will need to approve funding for this project by February 16. The current funds have been allocated for the remainder of the fiscal year. May need to conduct a feasibility study to determine resources need and at what cost to the organization.|
 |Scope Creep (40) | 6 | 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |  
-|Weather Conditions (50)|0|0|The scope of the project may move to the left because of inclement weather (i.e., such as snow, ice, high winds, tornados,etc.)|
 |Scheduling Risks (50)|9|9|The project may move to the left due to inclement weather, personnel, test environment, etc.|
 
 
