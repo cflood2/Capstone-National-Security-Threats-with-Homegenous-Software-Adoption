@@ -15,7 +15,7 @@ This paper will assess past incidents and use analogous examples to create evide
   
 ### Goals:
 - Create guidelines for software adoption to add to existing policy
-- Create guidelines for the USFG to consider in M&A filings
+- Create guidelines for the USFG to consider in Merge and Aquistions (M&A) filings
 
 
 On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
