@@ -35,31 +35,12 @@ There are several industry standards and best practices software model framework
 ### Project Goals:  
 To implement the following in the software assurance process:
 
-#### Implement Requirement and Specifications throughout the Software Development Lifecycle
- - Misuse/Abuse Cases Attack Models
-#### Implement Security Design
-- Design Review
-- Risk Analysis
-- Format Proofs
+#### To Review the following:
+ -Case Studies
+ -Attack Models
+ -Risk Analysis
 #### Implementation
-- Code Review
-- Compile-time Detection
-- Static Analysis Fault
-- Injection
-- Binary Code Analysis
-- Vulnerability Testing
-#### Verification
-- Static Analysis
-- Source Code Faulty Injection
-- Binary Fault Injection
-- Binary Code Analysis
-- Vulnerability Testing
-#### Deployment and Sustainment
-- Static Analysis
-- Vulnerability Scanning
-- Regression Testing
-  
-### Project Objectives:
+#### Project Objectives:
 To implement a secure baseline throughout the software development lifecycle. This implementation will help software developers make informative decisions and identify weaknesses in their software design process. The goal is to decrease vulnerabilities and mitigate potential risks in the software development lifecycle and to apply industry best practices and standards in the SDLC process.
 
 # **Proposed Project Timeline**
