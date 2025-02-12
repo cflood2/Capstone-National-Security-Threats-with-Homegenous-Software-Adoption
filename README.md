@@ -60,10 +60,10 @@ To implement a secure baseline throughout the software development lifecycle. Th
 ### Project Risk List
 |Risk  | Impact     | Likelihood | Description |
 |-------------------|------------|------------|-------------|
-|Resources (50)|9|9|Due to the availability of personnel, the project may be delayed due to unforeseen issues, i.e., family, health, work issues, etc.|
-|Testing Environment (50)|9|9|The equipment needed to conduct test may not be available|
-|Scope Creep (40) | 6 | 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |  
-|Scheduling Risks (50)|9|9|The project may move to the left due to inclement weather, personnel, test environment, etc.|
+|Resources (70)|9|9|Due to the availability of personnel, the project may be delayed due to unforeseen issues, i.e., family, health, work issues, etc.|
+|Testing Environment (60)|9|9|The equipment needed to conduct test may not be available|
+|Scope Creep (70) | 8| 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |  
+|Scheduling Risks (70)|9|9|The project may move to the left due to inclement weather, personnel, test environment, etc.|
 
 
 ### **Project Methodology**
