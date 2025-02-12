@@ -9,7 +9,7 @@
 ### Objectives:
 - Conduct case study on CrowdStrike incident
 - Conduct case study on SolarWinds Incident
-- Conduct Case study on Ukraine cyber war
+- Conduct case study on Ukraine cyber war
 - Conduct case study on EPIC
 - Create and/or simulate the reach of an incident using NetLogo
 - Address supply chain management concerns
