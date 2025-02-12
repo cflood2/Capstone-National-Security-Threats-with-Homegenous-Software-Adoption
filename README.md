@@ -160,7 +160,46 @@ Reference:
 
 Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC, https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.
 
+Title: National Security and Competition: How Courts Evaluate National Security when Assessing a Merger
 
+Abstract:
+In prior years, the mergers of firms in the defense industrial base system (DIB) had no impact on national security. Fast forward today where there is increased concerns over mergers and acquisitions. The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. This consolidation has created a national security risk when previously the only concern was in consolidation.
+
+The research article also point out there have increased oversight in government challenges to mergers and acquisitions in the defense industrial base. This could lead to conflicts between the goals of antitrust law fostering competition and nations security namely, protecting the security of the American people. 
+
+Problem Statement:
+
+What is the primary problem that the study investigated?
+Answer: The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. The courts have to decide or analyze national security concerns in defense mergers because of the lack of competition in many defense markets, barriers to entry in those markets and limitations of non-antitrust tools for improving competition 
+
+What has been done in the literature review? 
+Answer: The Department of Defense created five recommended actions to address national security concerns for company mergers or acquisitions:
+•	Strengthening merger oversight
+•	Addressing intellectual property limitations
+•	Increasing new entrants
+•	Increasing opportunities for small businesses
+•	Implementing sector-specific supply chain resiliency plans
+Why is this an urgent and or severe problem?
+Answer: Mr. Michael McLaughlin, who conducted the research,  argued when companies merge, there is an increased risk competitively which increase national contracting world
+
+What question related to the problem have not been answered by prior research?
+
+Answer: How to reduce or balance company mergers while protecting national security in a complex and everchanging world
+
+Investigative Research:
+To show data analysis and trends for industry specific mergers and acquisitions in organizations
+
+Challenges:
+
+Mergers and acquisitions does create challenges for innovation(s). These can hinder the DOD’s access to innovative products and services 
+To only have one defense contractor as the sole provider to provide servers leaving other contract companies to not compete. The courts found the merged company would create monopoly having a competitive advantage
+
+Reference:
+
+https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf
+https://perma.cc/3PPF-H893
+https://www.gao.gov/assets/d24106129.pdf
+Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024, https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition:%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.
 
 #### **Initial Technical Plan**
 - [ ] Coverage
