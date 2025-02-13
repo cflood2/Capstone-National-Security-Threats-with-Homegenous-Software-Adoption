@@ -84,27 +84,28 @@ There are several industry standards and best practices software model framework
 Abstract:
 We discuss the concept of confidence as a type of trust, outline existing techniques how to measure it, and discuss the applicability of known techniques on measuring changes in trust caused by software that cannot be perceived by its users. We conclude that the methods proposed are relevant to domains such as e-Health, e-Government, and other domains from the public sector that aim to increase trust by citizens, patients, and other forms of customer roles.
 
-**Introduction:** 
+### **Introduction:**  
 
-**Problem Statement:**
-What is the primary problem that the study investigated?
-The purpose of the paper’s research is to answer the following question: How can we measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To best of our knowledge, this question has not yet been addressed.
+### **Problem Statement:**  
+> **What is the primary problem that the study investigated?**  
+> The purpose of the paper’s research is to answer the following question: How can we measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To best of our knowledge, this question has not yet been addressed.
 
-What has been done in the literature review? 
-Answer:  Having both the confidence and trust in the tools to measure the effectiveness of in software changes implemented in both the public and private sector.
+> **What has been done in the literature review?**   
+> *Answer:* Having both the confidence and trust in the tools to measure the effectiveness of in software changes implemented in both the public and private sector.
 
-Why is this an urgent and or severe problem?
-Answer: When software is implemented both in the public and private sector, the expectation is for the software to have gone through a strict rigorous approval process, The approval process should include factors such as bench testing, change management review boards, software testing in a controlled environment and following industry best practices for software assurance. The problem comes when these factors have not been followed thoroughly in the software assurance process.
+> **Why is this an urgent and or severe problem?**  
+> *Answer:* When software is implemented both in the public and private sector, the expectation is for the software to have gone through a strict rigorous approval process, The approval process should include factors such as bench testing, change management review boards, software testing in a controlled environment and following industry best practices for software assurance. The problem comes when these factors have not been followed thoroughly in the software assurance process.
 
-**Research Question(s)**  
-What question related to the problem have not been answered by prior research?
+ 
+### **Research Question(s)**  
+> **What question related to the problem have not been answered by prior research?**    
+> *Answer:* The research indicated how can you measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To the best of our knowledge, this question has not yet been addressed.
 
-Answer:  The research indicated how can you measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To the best of our knowledge, this question has not yet been addressed.
 
-What are the practioners or prior research lacking an understanding of the phenomenon being studied?
-Answer: Tools or techniques which can be used to measure the confidence level and trust between in-house users of the institution  and the consumers who receive the updates when software baseline is changed. A good example is when the vendor CrowdStrike implemented a software change which wreaked havoc to government agencies and organizations. One software update, deemed critical,  grounded our nation’s infrastructure throughout the country to a complete halt and work stoppage.
+> **What are the practioners or prior research lacking an understanding of the phenomenon being studied?**    
+> *Answer:* Tools or techniques which can be used to measure the confidence level and trust between in-house users of the institution  and the consumers who receive the updates when software baseline is changed. A good example is when the vendor CrowdStrike implemented a software change which wreaked havoc to government agencies and organizations. One software update, deemed critical,  grounded our nation’s infrastructure throughout the country to a complete halt and work stoppage.
 
-**Contributions Made:**
+### **Contributions Made:**  
 Recently, Hou & Janssen [18] have conducted a literature review on trust within the software ecosystem and in software as such.
 They  define the software ecosystem as one that comprises actors such as:
 • software end-users who “adopt a software product to makethem more productive”,
@@ -114,16 +115,16 @@ They  define the software ecosystem as one that comprises actors such as:
 software that should be adopted as widely as possible”, and
 • package maintainers, who are “responsible for developing and maintaining software packages and their frameworks”.
 
-**Investigative Approach:**  
+### **Investigative Approach:**  
 Vargas &al. [27] point out that software developers choose third-party packages (libraries, frameworks, or APIs) arbitrarily, without considering the consequences of their decisions, unless constrained
 by their organizations’ policies.
 
 The Guttman scale was used to as to conduct a series of short essay type question about how people dealt with trust. Trust factors included the following: third party access consumers data, what would happen if their data was breached and the transfer of consumer data.
 
-**Primary Findings:**  
+### **Primary Findings:**  
 Researchers found the software engineering process requires confidence and trust, as software engineers use software using third-party components freely available on software repositories on the internet.  Researchers also found that to build on trust, individuals, institutions or technical systems can be measured by tools from techniques  as the Guttman or Likert scales 
 
-**Challenges:**  
+### **Challenges:**  
 As public agencies and institutions from the public sector at large have thoroughly digitalized their processes – both customer-facing and internal, they all face the challenge to efficiently communicate to their internal and external stakeholders that they are and will remain trustworthy. This adage applies to agencies from e-Health-
 hospitals, social insurances, and other institutions from the health-care ecosystem, e-Democracy - parliaments, electoral commissions, etc., and e-Government - municipalities, ministries, and all bodies engaged in governing public affairs.
 
@@ -132,7 +133,7 @@ Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of
 --------
 ## Towards Agility in Design in Global Component Based Development(CBD) 
 
-**Abstract:**  
+### **Abstract:**  
 Component Based Development can be appealing to software developer to distribute  work to different sites to maintain ownership and responsibility of software components. This approach can decrease knowledge awareness to achieve agility in the design process. Methodologies used in the Component Based Development platform includes the following: automation of management interdependencies between software components and related files, the setup of bug tracking tools on a centralized server, using processes, tools, techniques and procedures and creating a how to guide on the methodology of tools being used and having a centralized Integrated Development Environment
 
 **Problem Statement:**  
