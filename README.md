@@ -1,9 +1,9 @@
 # **Executive Summary:**
-  Modern infrastructure enables adversaries to disable/disrupt entire companies or agencies with one single cyber attack. This problem amplifies when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food. This paper will attempt to help create a recommendation theory in cybersecurity to this known issue. The newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For exmple, if company A produces 75% of poultry for a nation, what would happen if company A is compromised due to a cyber attack?  How long could a company remain inoperable or completely shut down which would impact the people who rely on those services globally? 
+&nbsp; Modern infrastructure enables adversaries to disable/disrupt entire companies or agencies with one single cyber attack. This problem amplifies when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food. This paper will attempt to help create a recommendation theory in cybersecurity to this known issue. The newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For exmple, if company A produces 75% of poultry for a nation, what would happen if company A is compromised due to a cyber attack?  How long could a company remain inoperable or completely shut down which would impact the people who rely on those services globally? 
 <br/>  
-  The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions between large companies in addition to companies accounting for this risk in the decision-making process.
+&nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions between large companies in addition to companies accounting for this risk in the decision-making process.
 <br/>  
-  This paper will assess past incidents and use analogous examples to create evidence for use in a NIST CSWP. This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act.
+&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST CSWP. This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act.
 
 ### Objectives:
 - Conduct case study on CrowdStrike incident
@@ -31,9 +31,9 @@ In recent years, there have been increased software vulnerabilities in both the 
 There are several industry standards and best practices software model frameworks for both the public and private sectors to use for software adoption. The government is required to follow strict guidance while maintaining industry best practice and standards in software assurance. Industries in both the public and private sectors not only must follow rules and strict guidelines but must be held accountable when making information in the software development lifecycle. 
 
 #### To Review the following:
- -Case Studies
- -Attack Models
- -Risk Analysis
+ -Case Studies  
+ -Attack Models  
+ -Risk Analysis  
 #### Implementation:
 -Create and/or simulate the reach of an incident using NetLogo
 
@@ -214,7 +214,8 @@ https://perma.cc/3PPF-H893
 https://www.gao.gov/assets/d24106129.pdf
 Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024, https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition:%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.
 
-#### **Initial Technical Plan**
+#### **Initial Technical Plan**  
+## Potential technical data colection: survey of large companies security decision makers to gather inforamtion on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
 - [ ] Coverage
 - [ ] Depth
 - [ ] Soundness
