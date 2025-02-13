@@ -78,7 +78,8 @@ There are several industry standards and best practices software model framework
 - [ ] Coverage
 - [ ] Depth
 - [ ] Use of Structured Abstracts
-- [ ] Measuring Impact on Confidence in Institutions by their Use of Software Components
+-------------
+## Measuring Impact on Confidence in Institutions by their Use of Software Components
 
 Abstract:
 We discuss the concept of confidence as a type of trust, outline existing techniques how to measure it, and discuss the applicability of known techniques on measuring changes in trust caused by software that cannot be perceived by its users. We conclude that the methods proposed are relevant to domains such as e-Health, e-Government, and other domains from the public sector that aim to increase trust by citizens, patients, and other forms of customer roles.
@@ -102,15 +103,14 @@ What question related to the problem have not been answered by prior research?
 
 Answer:  The research indicated how can you measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To the best of our knowledge, this question has not yet been addressed.
 
-What are the practioners or prior research lacking an understanding of the p0henomenon being studied?
+What are the practioners or prior research lacking an understanding of the phenomenon being studied?
 Answer: Tools or techniques which can be used to measure the confidence level and trust between in-house users of the institution  and the consumers who receive the updates when software baseline is changed. A good example is when the vendor CrowdStrike implemented a software change which wreaked havoc to government agencies and organizations. One software update, deemed critical,  grounded our nation’s infrastructure throughout the country to a complete halt and work stoppage.
 
 Contributions Made:
 
 Recently, Hou & Janssen [18] have conducted a literature review on trust within the software ecosystem and in software as such.
 They  define the software ecosystem as one that comprises actors such as:
-• software end-users who “adopt a software product to make
-them more productive”,
+• software end-users who “adopt a software product to makethem more productive”,
 • end-user organizations, who “expect that the software products add value to their organization’s goals”,
 • software engineers who create and maintain software products in their capacity as talented individuals,
 • software producing organizations, who employ software engineers to “build and maintain software to create valuable
@@ -131,9 +131,10 @@ Challenges:
 As public agencies and institutions from the public sector at large have thoroughly digitalized their processes – both customer-facing and internal, they all face the challenge to efficiently communicate to their internal and external stakeholders that they are and will remain trustworthy. This adage applies to agencies from e-Health-
 hospitals, social insurances, and other institutions from the health-care ecosystem, e-Democracy - parliaments, electoral commissions, etc., and e-Government - municipalities, ministries, and all bodies engaged in governing public affairs.
 
-Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of Software Components.” Proceedings of the Central and Eastern European eDem and eGov Days 2024, Association for Computing Machinery, 2024, pp. 119–24. ACM Digital Library, https://doi.org/10.1145/3670243.3670249.
+Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of Software Components.” Proceedings of the Central and Eastern European eDem and eGov Days 2024, Association for Computing Machinery, 2024, pp. 119–24. ACM Digital Library, https://doi.org/10.1145/3670243.3670249.  
 
-Towards Agility in Design in /Global Component Based Development(CBD) 
+--------
+## Towards Agility in Design in Global Component Based Development(CBD) 
 
 Abstract:
 Component Based Development can be appealing to software developer to distribute  work to different sites to maintain ownership and responsibility of software components. This approach can decrease knowledge awareness to achieve agility in the design process. Methodologies used in the Component Based Development platform includes the following: automation of management interdependencies between software components and related files, the setup of bug tracking tools on a centralized server, using processes, tools, techniques and procedures and creating a how to guide on the methodology of tools being used and having a centralized Integrated Development Environment
@@ -171,9 +172,10 @@ The potential benefits of implementing CBD methodologies in a globally distribut
 
 Reference:
 
-Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC, https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.
+Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC, https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.  
 
-Title: National Security and Competition: How Courts Evaluate National Security when Assessing a Merger
+------------
+## Title: National Security and Competition: How Courts Evaluate National Security when Assessing a Merger  
 
 Abstract:
 In prior years, the mergers of firms in the defense industrial base system (DIB) had no impact on national security. Fast forward today where there is increased concerns over mergers and acquisitions. The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. This consolidation has created a national security risk when previously the only concern was in consolidation.
@@ -202,18 +204,20 @@ Answer: How to reduce or balance company mergers while protecting national secur
 Investigative Research:
 To show data analysis and trends for industry specific mergers and acquisitions in organizations
 
-Challenges:
-
+Challenges:  
 Mergers and acquisitions does create challenges for innovation(s). These can hinder the DOD’s access to innovative products and services 
-To only have one defense contractor as the sole provider to provide servers leaving other contract companies to not compete. The courts found the merged company would create monopoly having a competitive advantage
+To only have one defense contractor as the sole provider to provide servers leaving other contract companies to not compete. The courts found the merged company would create monopoly having a competitive advantage  
 
-Reference:
+---------
+Reference:  
 
-https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf
-https://perma.cc/3PPF-H893
-https://www.gao.gov/assets/d24106129.pdf
-Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024, https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition:%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.
+https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf  
+https://perma.cc/3PPF-H893  
+https://www.gao.gov/assets/d24106129.pdf  
+Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024,  
+https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.  
 
+---------
 #### **Initial Technical Plan**  
 ## Potential technical data colection: survey of large companies security decision makers to gather inforamtion on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
 - [ ] Coverage
