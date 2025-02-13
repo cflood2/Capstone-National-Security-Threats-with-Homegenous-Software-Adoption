@@ -1,5 +1,5 @@
 # **Executive Summary:**
-&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper will attempt to help create a recommendation theory in cybersecurity to this known issue. The newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For example, disruptions to food suppliers would cause widespread food insecurity. If National Poultry Corp. Produces 75% of domestic poultry products, a cyber attack targeting them would cause starvation conditions for large numbers of people. 
+&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper will attempt to help create a recommendation theory in cybersecurity to this unknown issue. The newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For example, disruptions to food suppliers would cause widespread food insecurity. If National Poultry Corp. Produces 75% of domestic poultry products, a cyber attack targeting them would cause starvation conditions for large numbers of people. 
 <br/>  
 &nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions (M&A) between large companies in addition to companies accounting for this risk in the decision-making process.
 <br/>  
@@ -205,8 +205,11 @@ To only have one defense contractor as the sole provider to provide servers leav
 **Reference:**    
 
 https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf  
-https://perma.cc/3PPF-H893  
-https://www.gao.gov/assets/d24106129.pdf  
+DOD Needs Better Insight into Risks from Mergers and Acquisitions.
+GAO-24-106129, United States Government Accountability Office, Oct. 2023, pg(s)49
+https://www.gao.gov/assets/d24106129.pdf.
+Federalnewsnetwork.com.
+https://perma.cc/3PPF-H893. Accessed 12 Feb. 2025.
 Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024,  
 https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.  
 
