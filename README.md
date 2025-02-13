@@ -1,5 +1,4 @@
 # **Executive Summary:**
----------------
   Modern infrastructure enables adversaries to disable/disrupt entire companies or agencies with one single cyber attack. This problem amplifies when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food. This paper will attempt to help create a recommendation theory in cybersecurity to this known issue. The newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For exmple, if company A produces 75% of poultry for a nation, what would happen if company A is compromised due to a cyber attack?  How long could a company remain inoperable or completely shut down which would impact the people who rely on those services globally? 
 <br/>  
   The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions between large companies in addition to companies accounting for this risk in the decision-making process.
@@ -63,16 +62,16 @@ There are several industry standards and best practices software model framework
 
 ### **Project Methodology**
 #### Initial Lit Review
-
+----------
 ##### Evaluating and Mitigating Software Supply Chain Security Risks by Robert J. Ellison etal.
  - Discusses minimizing opportunites or incidents of unathorized changes. Relevent to CrowdStrike incident of 2024. Identifies supply chain risks and specifys evidence needs to to appropriotely mitigate. According to the report evry phase of life cycle must be part of mitigation: nitiation, development, configuration/deployment, operations/maintenance, and disposal. Lacks any mention of 
-
+----------
 ##### Cyber supply chain risks in cloud computing – bridging the risk assessment gap by Olusola Akinrolabu etal.
  - Proposes a model called *Cloud Supply Chain Cyber Risk Assessment*  to address dynamic risks associated with cloud computer. Survey dataset showed a lack of flexibility in assessment methods or no assessment at all.
-
+----------
 ##### Cloud-Based Disaster Recovery: Reducing Risk and Improving Continuity by Premkumar Ganesan
  - Covers recovery strategies for cloud environment. Cloud Based Disaster Recovery (CBDR). Examples include backup environments, failovers, and redundancies.
-
+----------
 
 ## Potential technical data colection: survey of large companies security decision makers to gather inforamtion on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
 
