@@ -88,7 +88,7 @@ We discuss the concept of confidence as a type of trust, outline existing techni
 
 ### **Problem Statement:**  
 > **What is the primary problem that the study investigated?**  
-> The purpose of the paper’s research is to answer the following question: How can we measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To best of our knowledge, this question has not yet been addressed.
+> The purpose of the paper’s research is to answer the following question: How can we measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To the best of our knowledge, this question has not yet been addressed.
 
 > **What has been done in the literature review?**   
 > *Answer:* Having both the confidence and trust in the tools to measure the effectiveness of in software changes implemented in both the public and private sector.
@@ -215,7 +215,7 @@ https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evalua
 
 ---------
 #### **Initial Technical Plan**  
-## Potential technical data colection: survey of large companies security decision makers to gather inforamtion on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
+## Potential technical data collection: survey of large companies security decision makers to gather information on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
 - [ ] Coverage
 - [ ] Depth
 - [ ] Soundness
