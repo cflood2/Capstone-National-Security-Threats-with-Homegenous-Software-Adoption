@@ -84,10 +84,9 @@ There are several industry standards and best practices software model framework
 Abstract:
 We discuss the concept of confidence as a type of trust, outline existing techniques how to measure it, and discuss the applicability of known techniques on measuring changes in trust caused by software that cannot be perceived by its users. We conclude that the methods proposed are relevant to domains such as e-Health, e-Government, and other domains from the public sector that aim to increase trust by citizens, patients, and other forms of customer roles.
 
-Introduction: 
+**Introduction:** 
 
-Problem Statement:
-
+**Problem Statement:**
 What is the primary problem that the study investigated?
 The purpose of the paper’s research is to answer the following question: How can we measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To best of our knowledge, this question has not yet been addressed.
 
@@ -97,8 +96,7 @@ Answer:  Having both the confidence and trust in the tools to measure the effect
 Why is this an urgent and or severe problem?
 Answer: When software is implemented both in the public and private sector, the expectation is for the software to have gone through a strict rigorous approval process, The approval process should include factors such as bench testing, change management review boards, software testing in a controlled environment and following industry best practices for software assurance. The problem comes when these factors have not been followed thoroughly in the software assurance process.
 
-Research Question(s)
-
+**Research Question(s)**  
 What question related to the problem have not been answered by prior research?
 
 Answer:  The research indicated how can you measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To the best of our knowledge, this question has not yet been addressed.
@@ -106,8 +104,7 @@ Answer:  The research indicated how can you measure impact on confidence / trust
 What are the practioners or prior research lacking an understanding of the phenomenon being studied?
 Answer: Tools or techniques which can be used to measure the confidence level and trust between in-house users of the institution  and the consumers who receive the updates when software baseline is changed. A good example is when the vendor CrowdStrike implemented a software change which wreaked havoc to government agencies and organizations. One software update, deemed critical,  grounded our nation’s infrastructure throughout the country to a complete halt and work stoppage.
 
-Contributions Made:
-
+**Contributions Made:**
 Recently, Hou & Janssen [18] have conducted a literature review on trust within the software ecosystem and in software as such.
 They  define the software ecosystem as one that comprises actors such as:
 • software end-users who “adopt a software product to makethem more productive”,
@@ -117,17 +114,16 @@ They  define the software ecosystem as one that comprises actors such as:
 software that should be adopted as widely as possible”, and
 • package maintainers, who are “responsible for developing and maintaining software packages and their frameworks”.
 
-Investigative Approach:
+**Investigative Approach:**  
 Vargas &al. [27] point out that software developers choose third-party packages (libraries, frameworks, or APIs) arbitrarily, without considering the consequences of their decisions, unless constrained
 by their organizations’ policies.
 
 The Guttman scale was used to as to conduct a series of short essay type question about how people dealt with trust. Trust factors included the following: third party access consumers data, what would happen if their data was breached and the transfer of consumer data.
 
-Primary Findings:
+**Primary Findings:**  
 Researchers found the software engineering process requires confidence and trust, as software engineers use software using third-party components freely available on software repositories on the internet.  Researchers also found that to build on trust, individuals, institutions or technical systems can be measured by tools from techniques  as the Guttman or Likert scales 
 
-Challenges:
-
+**Challenges:**  
 As public agencies and institutions from the public sector at large have thoroughly digitalized their processes – both customer-facing and internal, they all face the challenge to efficiently communicate to their internal and external stakeholders that they are and will remain trustworthy. This adage applies to agencies from e-Health-
 hospitals, social insurances, and other institutions from the health-care ecosystem, e-Democracy - parliaments, electoral commissions, etc., and e-Government - municipalities, ministries, and all bodies engaged in governing public affairs.
 
@@ -136,10 +132,10 @@ Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of
 --------
 ## Towards Agility in Design in Global Component Based Development(CBD) 
 
-Abstract:
+**Abstract:**  
 Component Based Development can be appealing to software developer to distribute  work to different sites to maintain ownership and responsibility of software components. This approach can decrease knowledge awareness to achieve agility in the design process. Methodologies used in the Component Based Development platform includes the following: automation of management interdependencies between software components and related files, the setup of bug tracking tools on a centralized server, using processes, tools, techniques and procedures and creating a how to guide on the methodology of tools being used and having a centralized Integrated Development Environment
 
-Problem Statement:
+**Problem Statement:**  
 
 What is the primary problem that the study investigated?
 Answer: How the adoption of a Component Based Development (CBD) can be globally distributing software to development teams. Based upon research, the primary issue have created expectations of how software should be mitigated based upon globally distributed teams.
@@ -150,40 +146,36 @@ Answer:  The LeCroy software team developed a toolbox  which can be integrated i
 Why is this an urgent and or severe problem?
 Answer: Researcher's argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
 
-Research Question(s)
-
+**Research Question(s)**  
 What question related to the problem have not been answered by prior research?
 Answer:  How geographically software development teams do not communicate effectively across different industry and government sectors nor have the understanding on how to reuse software components in a rapidly changing environment.
 
-Contributions Made: 
-
+**Contributions Made:**   
 The LeCroy software team developed a toolbox  which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team.
 
-Investigative Approach:
-The LeCroy software team implemented  customer-specific components, modification of existing components with the customers system. Members of the team worked across three geographical locations. Vendors of third-party components were located in various countries (more than 25 vendors total)
-Challenges:
+**Investigative Approach:**  
+The LeCroy software team implemented  customer-specific components, modification of existing components with the customers system. Members of the team worked across three geographical locations. Vendors of third-party components were located in various countries (more than 25 vendors total)  
+
+**Challenges:**  
 Researcher argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
 
-Implications for Practice:
+**Implications for Practice:**  
 Supporting reusable components expanding across multiple platforms across geographical sites. 
 
-Implications for Research:
+**Implications for Research:**  
 The potential benefits of implementing CBD methodologies in a globally distributed environment are many. Lessons from the aeronautics, automotive, electronics and computer hardware industries, in which Component Based architectures have been successfully employed for setting up globally distributed design and production in the reuse of software components
 
-Reference:
-
+**Reference:**  
 Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC, https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.  
 
 ------------
 ## Title: National Security and Competition: How Courts Evaluate National Security when Assessing a Merger  
 
-Abstract:
-In prior years, the mergers of firms in the defense industrial base system (DIB) had no impact on national security. Fast forward today where there is increased concerns over mergers and acquisitions. The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. This consolidation has created a national security risk when previously the only concern was in consolidation.
-
+**Abstract:**  
+In prior years, the mergers of firms in the defense industrial base system (DIB) had no impact on national security. Fast forward today where there is increased concerns over mergers and acquisitions. The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. This consolidation has created a national security risk when previously the only concern was in consolidation.  
 The research article also point out there have increased oversight in government challenges to mergers and acquisitions in the defense industrial base. This could lead to conflicts between the goals of antitrust law fostering competition and nations security namely, protecting the security of the American people. 
 
-Problem Statement:
-
+**Problem Statement:**  
 What is the primary problem that the study investigated?
 Answer: The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. The courts have to decide or analyze national security concerns in defense mergers because of the lack of competition in many defense markets, barriers to entry in those markets and limitations of non-antitrust tools for improving competition 
 
@@ -201,15 +193,15 @@ What question related to the problem have not been answered by prior research?
 
 Answer: How to reduce or balance company mergers while protecting national security in a complex and everchanging world
 
-Investigative Research:
+**Investigative Research:**  
 To show data analysis and trends for industry specific mergers and acquisitions in organizations
 
-Challenges:  
+**Challenges:**    
 Mergers and acquisitions does create challenges for innovation(s). These can hinder the DOD’s access to innovative products and services 
 To only have one defense contractor as the sole provider to provide servers leaving other contract companies to not compete. The courts found the merged company would create monopoly having a competitive advantage  
 
 ---------
-Reference:  
+**Reference:**    
 
 https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf  
 https://perma.cc/3PPF-H893  
