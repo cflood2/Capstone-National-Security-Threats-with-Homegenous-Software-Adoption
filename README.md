@@ -143,8 +143,8 @@ Component Based Development can be appealing to software developer to distribute
 > *Answer:* Researcher's argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
 
 ### **Research Question(s)**  
-What question related to the problem have not been answered by prior research?
-Answer:  How geographically software development teams do not communicate effectively across different industry and government sectors nor have the understanding on how to reuse software components in a rapidly changing environment.
+> **What question related to the problem have not been answered by prior research?**  
+> *Answer:*  How geographically software development teams do not communicate effectively across different industry and government sectors nor have the understanding on how to reuse software components in a rapidly changing environment.
 
 ### **Contributions Made:**  
 The LeCroy software team developed a toolbox  which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team.
