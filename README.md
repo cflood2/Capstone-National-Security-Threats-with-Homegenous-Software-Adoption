@@ -1,9 +1,9 @@
 # **Executive Summary:**
-&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, agriculture and food production. This paper will attempt to help create a recommended theory in cybersecurity to address this known issue. This newly created theory will help to address cyber security risks associated with highly consolidated industries and horizontal software assimilation such as EPIC or CrowdStrike. For example, disruptions to food suppliers would cause widespread food insecurity. If the National Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would cause massive starvation which would affect a very large population. 
+&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper attempts to create policy recommendations addressing cybersecurity risks associated with this issue. For example, disruptions to food suppliers would cause widespread food insecurity. If National Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would cause starvation conditions for large numbers of people. 
 <br/>  
 &nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions (M&A) between large companies in addition to companies accounting for this risk in the decision-making process.
 <br/>  
-&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST CSWP. This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act.
+&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST CSWP. This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for use by the USFG (United States Federal Government.)
 
 ### Objectives:
 - Conduct case study on CrowdStrike incident
@@ -15,7 +15,7 @@
   
 ### Goals:
 - Create guidelines for software adoption to add to existing policy
-- Create guidelines for the USFG (United States Federal Government) to consider in M&A filings
+- Create guidelines for the USFG to consider in M&A filings  
 
 
 On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
