@@ -15,7 +15,7 @@
   
 ### Goals:
 - Create guidelines for software adoption to add to existing policy
-- Create guidelines for the USFG to consider in M&A filings
+- Create guidelines for the USFG (United States Federal Government) to consider in M&A filings
 
 
 On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
@@ -31,11 +31,11 @@ In recent years, there have been increased software vulnerabilities in both the 
 There are several industry standards and best practices software model frameworks for both the public and private sectors to use for software adoption. The government is required to follow strict guidance while maintaining industry best practice and standards in software assurance. Industries in both the public and private sectors not only must follow rules and strict guidelines but must be held accountable when making information in the software development lifecycle. 
 
 #### To Review the following:
- -Case Studies  
- -Attack Models  
- -Risk Analysis  
+  - Case Studies  
+  - Attack Models  
+  - Risk Analysis  
 #### Implementation:
--Create and/or simulate the reach of an incident using NetLogo
+  - Create and/or simulate the reach of an incident using NetLogo
 
 # **Proposed Project Timeline**
 - [ ] Identifies major tasks  
@@ -44,12 +44,6 @@ There are several industry standards and best practices software model framework
 - [ ] GitHub Usage
 ## !!Remove checklist before submitting for assignemnt!!  
 
-# **Risk List**
-- [ ] Impact  
-- [ ] Likelihood  
-- [ ] Name and Description  
-- [ ] Coverage and Relevance
-## !!Remove checklist before submitting for assignemnt!! 
 
 ### Project Risk List
 |Risk  | Impact     | Likelihood | Description |
@@ -60,9 +54,9 @@ There are several industry standards and best practices software model framework
 |Scheduling Risks (70)|9|9|The project may move to the left due to inclement weather, personnel, test environment, etc.|
 
 
-### **Project Methodology**
-#### Initial Lit Review
-----------
+## **Project Methodology**
+### Initial Lit Review  
+  
 ##### Evaluating and Mitigating Software Supply Chain Security Risks by Robert J. Ellison etal.
  - Discusses minimizing opportunites or incidents of unathorized changes. Relevent to CrowdStrike incident of 2024. Identifies supply chain risks and specifys evidence needs to to appropriotely mitigate. According to the report evry phase of life cycle must be part of mitigation: nitiation, development, configuration/deployment, operations/maintenance, and disposal. Lacks any mention of 
 ----------
@@ -71,17 +65,19 @@ There are several industry standards and best practices software model framework
 ----------
 ##### Cloud-Based Disaster Recovery: Reducing Risk and Improving Continuity by Premkumar Ganesan
  - Covers recovery strategies for cloud environment. Cloud Based Disaster Recovery (CBDR). Examples include backup environments, failovers, and redundancies.
-----------
+----------  
+##### Lawmakers Scrutinize Meatpacking as JBS Rebounds From Cyberattack
+ - Cyber attack affted JBS meat packing plants in Australia, Canada, and the United States. Operatiosn were shut down for at least a day. Concerns from congressmembers were expressed "If it was 10 or 20 companies instead of 4 wed be less vulnerable." Follow up research suggest nothing came of congressional concerns.  
+[archive.today link](http://archive.today/rHVBe)
+----------  
+##### The World's Food Supply Has Never Been More Vulnerable  
+ - One Smithfield Foods plant processing more than 15% of all pork in the U.S. The 2021 JBS attack sabotaged more than a fifth of all U.S. beef processing in a matter of minutes. Four processing companies slaughter more than 80% of US beef; four meatpacking companies process roughly two thirds of the nation's hogs; and five companies control about 60% of the broiler chicken market.  
+[archive.today link](http://archive.today/VRpje)  
 
-## Potential technical data colection: survey of large companies security decision makers to gather inforamtion on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
-
-- [ ] Coverage
-- [ ] Depth
-- [ ] Use of Structured Abstracts
 -------------
 ## Measuring Impact on Confidence in Institutions by their Use of Software Components
 
-Abstract:
+### **Abstract:**  
 We discuss the concept of confidence as a type of trust, outline existing techniques how to measure it, and discuss the applicability of known techniques on measuring changes in trust caused by software that cannot be perceived by its users. We conclude that the methods proposed are relevant to domains such as e-Health, e-Government, and other domains from the public sector that aim to increase trust by citizens, patients, and other forms of customer roles.
 
 ### **Introduction:**  
@@ -136,63 +132,62 @@ Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of
 ### **Abstract:**  
 Component Based Development can be appealing to software developer to distribute  work to different sites to maintain ownership and responsibility of software components. This approach can decrease knowledge awareness to achieve agility in the design process. Methodologies used in the Component Based Development platform includes the following: automation of management interdependencies between software components and related files, the setup of bug tracking tools on a centralized server, using processes, tools, techniques and procedures and creating a how to guide on the methodology of tools being used and having a centralized Integrated Development Environment
 
-**Problem Statement:**  
+### **Problem Statement:**  
+> **What is the primary problem that the study investigated?**  
+> *Answer:* How the adoption of a Component Based Development (CBD) can be globally distributing software to development teams. Based upon research, the primary issue have created expectations of how software should be mitigated based upon globally distributed teams.
 
-What is the primary problem that the study investigated?
-Answer: How the adoption of a Component Based Development (CBD) can be globally distributing software to development teams. Based upon research, the primary issue have created expectations of how software should be mitigated based upon globally distributed teams.
+> **What has been done in the literature review?** 
+> *Answer:*  The LeCroy software team developed a toolbox  which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team. CBD also offers agility based upon software development and support reusable components expanding across multiple platforms across geographical sites. 
 
-What has been done in the literature review? 
-Answer:  The LeCroy software team developed a toolbox  which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team. CBD also offers agility based upon software development and support reusable components expanding across multiple platforms across geographical sites. 
+> **Why is this an urgent and or severe problem?**  
+> *Answer:* Researcher's argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
 
-Why is this an urgent and or severe problem?
-Answer: Researcher's argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
-
-**Research Question(s)**  
+### **Research Question(s)**  
 What question related to the problem have not been answered by prior research?
 Answer:  How geographically software development teams do not communicate effectively across different industry and government sectors nor have the understanding on how to reuse software components in a rapidly changing environment.
 
-**Contributions Made:**   
+### **Contributions Made:**  
 The LeCroy software team developed a toolbox  which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team.
 
-**Investigative Approach:**  
+### **Investigative Approach:**  
 The LeCroy software team implemented  customer-specific components, modification of existing components with the customers system. Members of the team worked across three geographical locations. Vendors of third-party components were located in various countries (more than 25 vendors total)  
 
-**Challenges:**  
+### **Challenges:**  
 Researcher argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
 
-**Implications for Practice:**  
+### **Implications for Practice:**  
 Supporting reusable components expanding across multiple platforms across geographical sites. 
 
-**Implications for Research:**  
+### **Implications for Research:**  
 The potential benefits of implementing CBD methodologies in a globally distributed environment are many. Lessons from the aeronautics, automotive, electronics and computer hardware industries, in which Component Based architectures have been successfully employed for setting up globally distributed design and production in the reuse of software components
 
-**Reference:**  
+### **Reference:**  
 Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC, https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.  
 
 ------------
 ## Title: National Security and Competition: How Courts Evaluate National Security when Assessing a Merger  
 
-**Abstract:**  
+### **Abstract:**  
 In prior years, the mergers of firms in the defense industrial base system (DIB) had no impact on national security. Fast forward today where there is increased concerns over mergers and acquisitions. The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. This consolidation has created a national security risk when previously the only concern was in consolidation.  
 The research article also point out there have increased oversight in government challenges to mergers and acquisitions in the defense industrial base. This could lead to conflicts between the goals of antitrust law fostering competition and nations security namely, protecting the security of the American people. 
 
-**Problem Statement:**  
-What is the primary problem that the study investigated?
-Answer: The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. The courts have to decide or analyze national security concerns in defense mergers because of the lack of competition in many defense markets, barriers to entry in those markets and limitations of non-antitrust tools for improving competition 
+### **Problem Statement:**  
+> **What is the primary problem that the study investigated?**  
+> *Answer:* The landscape of threats to national security is concerning because companies have increased footprint in mergers and acquisitions. The courts have to decide or analyze national security concerns in defense mergers because of the lack of competition in many defense markets, barriers to entry in those markets and limitations of non-antitrust tools for improving competition 
 
-What has been done in the literature review? 
-Answer: The Department of Defense created five recommended actions to address national security concerns for company mergers or acquisitions:
-•	Strengthening merger oversight
-•	Addressing intellectual property limitations
-•	Increasing new entrants
-•	Increasing opportunities for small businesses
-•	Implementing sector-specific supply chain resiliency plans
-Why is this an urgent and or severe problem?
-Answer: Mr. Michael McLaughlin, who conducted the research,  argued when companies merge, there is an increased risk competitively which increase national contracting world
+> **What has been done in the literature review?**   
+> *Answer:* The Department of Defense created five recommended actions to address national security concerns for company mergers or acquisitions:
+> •	Strengthening merger oversight
+> •	Addressing intellectual property limitations
+> •	Increasing new entrants
+> •	Increasing opportunities for small businesses
+> •	Implementing sector-specific supply chain resiliency plans
 
-What question related to the problem have not been answered by prior research?
+> **Why is this an urgent and or severe problem?**  
+> *Answer:* Mr. Michael McLaughlin, who conducted the research,  argued when companies merge, there is an increased risk competitively which increase national contracting world
 
-Answer: How to reduce or balance company mergers while protecting national security in a complex and everchanging world
+> **What question related to the problem have not been answered by prior research?**  
+> *Answer:* How to reduce or balance company mergers while protecting national security in a complex and everchanging world  
 
 **Investigative Research:**  
 To show data analysis and trends for industry specific mergers and acquisitions in organizations
