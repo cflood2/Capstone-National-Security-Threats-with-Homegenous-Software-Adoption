@@ -223,8 +223,9 @@ https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evalua
 ## !!Remove checklist before submitting for assignemnt!! 
 
 ### **Resources Needed**
-- [ ] Coverage
-- [ ] Conforms to Structure
+ - Qualtrics
+ - Respondants
+ - Criss Library Databases
 
 ### **Project Management Organization**
 - [ ]  Coverage
