@@ -3,19 +3,21 @@
 <br/>  
 &nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions (M&A) between large companies in addition to companies accounting for this risk in the decision-making process.
 <br/>  
-&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST CSWP. This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for use by the USFG (United States Federal Government.)
+&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST (National Institute of Standards and Technology) CSWP Cybersecurity White Paper.) This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for use by the USFG (United States Federal Government.)
 
 ### Objectives:
-- Conduct case study on CrowdStrike incident
-- Conduct case study on SolarWinds Incident
-- Conduct case study on Ukraine cyber war
-- Conduct case study on EPIC
+- Investigate CrowdStrike incident
+- Investiagte on SolarWinds incident
+- Investiagte study on Ukraine cyber war
+- Investigate study on EPIC
+- Investigate JBS indident
 - Create and/or simulate the reach of an incident using NetLogo
 - Address supply chain management concerns
   
 ### Goals:
 - Create guidelines for software adoption to add to existing policy
-- Create guidelines for the USFG to consider in M&A filings  
+- Create guidelines for the USFG to consider in M&A filings
+- Create guidelines for DoD (Department of Defense) when contractors attempt to consolidate
 
 
 On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
@@ -210,7 +212,10 @@ https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evalua
 
 ---------
 #### **Initial Technical Plan**  
-## Potential technical data collection: survey of large companies security decision makers to gather information on adoption polices. Do they consider the market share of software? If more companies adopt, more likely to adopt? etc.
+ 1. Conduct a Qualtrics survey of cybersecurity professionals and decision makers to determine what parameters are most important when adopting new security software.
+ 2. Sign up to present at DEFCON402 meetup to find respondants.
+ 3. Review real world incidents (JBS, CrowdStrike, Ukraine)
+
 - [ ] Coverage
 - [ ] Depth
 - [ ] Soundness
