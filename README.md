@@ -40,8 +40,9 @@ There are several industry standards and best practices software model framework
   - Create and/or simulate the reach of an incident using NetLogo
 
 # **Proposed Project Timeline**
-<iframe width="700" height="900" frameborder="0" scrolling="no" src="https://unomail-my.sharepoint.com/personal/cflood_unomaha_edu/_layouts/15/Doc.aspx?sourcedoc={bcecc40d-d412-48a8-a813-af53553fa10e}&action=embedview&wdAllowInteractivity=False&Item='Project%20schedule'!A1%3AAC24&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
-## !!Remove checklist before submitting for assignemnt!!  
+![Gantt Chart](Gant Chart.png)
+
+For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/personal/cflood_unomaha_edu/Documents/Consolidation%20%26%20NATSEC.xlsx?d=wbcecc40dd41248a8a813af53553fa10e&csf=1&web=1&e=96HGBF
 
 
 ### Project Risk List
