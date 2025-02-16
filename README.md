@@ -73,7 +73,14 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
 ##### The World's Food Supply Has Never Been More Vulnerable  
  - One Smithfield Foods plant processing more than 15% of all pork in the U.S. The 2021 JBS attack sabotaged more than a fifth of all U.S. beef processing in a matter of minutes. Four processing companies slaughter more than 80% of US beef; four meatpacking companies process roughly two thirds of the nation's hogs; and five companies control about 60% of the broiler chicken market.  
 [archive.today link](http://archive.today/VRpje)  
-
+-------------
+### **Resources Needed:**
+|Resource  | Dr. Hale needed? | Investigating Team member | Description |
+|-------------------|---------|---------------------------|-------------|
+|ACM Digital Library| No | Ryan | Association for Computing Machinery for Journal Aricles  |
+|Net Logo | No | Brian | Platform for building and simulating models of natural and social systems|
+|Google Shcolar| No | Sheryl | Some description  |
+|e.g. PLC unit | Yes | Gary | A programmable logic controller from Siemens for investigation.|
 -------------
 ## Measuring Impact on Confidence in Institutions by their Use of Software Components
 
