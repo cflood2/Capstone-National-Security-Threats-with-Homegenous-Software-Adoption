@@ -77,10 +77,10 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
 ### **Resources Needed:**
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |-------------------|---------|---------------------------|-------------|
-|ACM Digital Library| No | Ryan | Association for Computing Machinery for Journal Aricles  |
+|ACM Digital Library| No | Connor | Association for Computing Machinery for Journal Aricles  |
 |Net Logo | No | Brian | Platform for building and simulating models of natural and social systems|
-|Google Shcolar| No | Sheryl | Some description  |
-|e.g. PLC unit | Yes | Gary | A programmable logic controller from Siemens for investigation.|
+|Google Shcolar| No | Sheryl | Search engine that helps users find academic and scholarly materials |
+|NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology|
 -------------
 ## Measuring Impact on Confidence in Institutions by their Use of Software Components
 
