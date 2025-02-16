@@ -65,6 +65,9 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
 ##### Cyber supply chain risks in cloud computing – bridging the risk assessment gap by Olusola Akinrolabu etal.
  - Proposes a model called *Cloud Supply Chain Cyber Risk Assessment*  to address dynamic risks associated with cloud computer. Survey dataset showed a lack of flexibility in assessment methods or no assessment at all.
 ----------
+#### Beyond SolarWinds: The Systemic Risks of Critical Infrastructures, State of Play, and Future Directions
+- - Discusses the reliability of the framework for the cybersecurity of critical infrastructure. It highlights the operation of critical infrastructure, interconnectedness of  the software supply chain.
+----------
 ##### Cloud-Based Disaster Recovery: Reducing Risk and Improving Continuity by Premkumar Ganesan
  - Covers recovery strategies for cloud environment. Cloud Based Disaster Recovery (CBDR). Examples include backup environments, failovers, and redundancies.
 ----------  
