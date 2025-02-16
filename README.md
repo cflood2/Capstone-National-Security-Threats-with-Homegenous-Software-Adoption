@@ -77,7 +77,7 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
 ### **Resources Needed:**
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |-------------------|---------|---------------------------|-------------|
-|Excel| No | Brian | Association for Computing Machinery for Journal Aricles  |
+|Scala| No | Brian | Programming language used in Net Logo  |
 |Net Logo | No | Connor | Platform for building and simulating models of natural and social systems|
 |ACM Digital Library| No | Sheryl | Search engine that helps users find academic and scholarly materials |
 |NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology|
