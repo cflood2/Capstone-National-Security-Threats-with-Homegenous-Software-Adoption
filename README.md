@@ -66,7 +66,7 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
  - Proposes a model called *Cloud Supply Chain Cyber Risk Assessment*  to address dynamic risks associated with cloud computer. Survey dataset showed a lack of flexibility in assessment methods or no assessment at all.
 ----------
 #### Beyond SolarWinds: The Systemic Risks of Critical Infrastructures, State of Play, and Future Directions
-- - Discusses the reliability of the framework for the cybersecurity of critical infrastructure. It highlights the operation of critical infrastructure, interconnectedness of  the software supply chain.
+- Discusses the reliability of the framework for the cybersecurity of critical infrastructure. It highlights the operation of critical infrastructure, interconnectedness of  the software supply chain.
 ----------
 ##### Cloud-Based Disaster Recovery: Reducing Risk and Improving Continuity by Premkumar Ganesan
  - Covers recovery strategies for cloud environment. Cloud Based Disaster Recovery (CBDR). Examples include backup environments, failovers, and redundancies.
@@ -219,6 +219,8 @@ Federalnewsnetwork.com.
 https://perma.cc/3PPF-H893. Accessed 12 Feb. 2025.
 Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024,  
 https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.  
+https://ceur-ws.org/Vol-2940/paper33.pdf
+https://www.techtarget.com/whatis/feature/SolarWinds-hack-explained-Everything-you-need-to-know
 
 ---------
 #### **Initial Technical Plan**  
