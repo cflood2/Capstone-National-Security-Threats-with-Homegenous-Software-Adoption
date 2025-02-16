@@ -87,7 +87,7 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
 |ACM Digital Library| No | Sheryl | Search engine that helps users find academic and scholarly materials |
 |NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology|
 
-- NetLogo uses the programming language Scala for the construction of agent-based modeling. NetLogo can create models of computer networks, to simulate packet transmission, congestion, and routing. It can introduce cyber-attacks, defense strategies, and countermeasures. A person can see real-world impact of vulnerabilities and attacks on their networks. 
+- NetLogo uses the programming language Scala for the construction of agent-based modeling. NetLogo can create models of computer networks to simulate packet transmission, congestion, and routing. It can introduce cyber-attacks, defense strategies, and countermeasures. A person can see real-world impact of vulnerabilities and attacks on their networks. 
 -------------
 ## Measuring Impact on Confidence in Institutions by their Use of Software Components
 
