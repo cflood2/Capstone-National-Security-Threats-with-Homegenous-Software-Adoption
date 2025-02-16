@@ -24,6 +24,8 @@ On July 19, 2024, the company known as CrowdStrike implemented a change in their
 
 A report was conducted which concluded CrowdStrike did not follow proper procedures and protocols in reducing risk nor mitigated the software development lifecycle process.
 
+The solar winds attack began in September 2019 where they gained access to the SolarWinds Orion network. The cyber criminals injected malicious code where 18,000 customers were affected including government departments such as Homeland Security, State, Commerce and Treasury.  It was found that a malware was used to circumvent threat detection. 
+
 In February 2022, the National Institute of Standards and Technology (NIST) published Special Publications (SP) 800-218  Secure Software Development Framework (SSDF) v1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities. The purpose of the publication is to follow guidance and incorporate industry best practices and standards throughout the development lifecycle. 
 The Open Worldwide Application Security Project (OWASP) in 2002 published a Developer Guide for application and system developers to follow best practices in developing a secure Software Assurance Model.  The Software Assurance Maturity Model (SAMM) is another software model which can be used in both the public and private sector. The objective of the SAMM model can be a compliance model in supporting the complete software lifecycle. The SAMM model can be broken down into five categories: Governance, Design, Implementation, Verification and Operations.
 
