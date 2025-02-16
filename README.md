@@ -1,16 +1,16 @@
 # **Executive Summary:**
-&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper attempts to create policy recommendations addressing cybersecurity risks associated with this issue. For example, disruptions to food suppliers would cause widespread food insecurity. If National Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would cause starvation conditions for large numbers of people. 
+&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper attempts to create policy recommendations addressing cybersecurity risks associated with this issue. For example, disruptions to food suppliers would cause widespread food insecurity. If Big Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would cause starvation conditions for large numbers of people. 
 <br/>  
 &nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions (M&A) between large companies in addition to companies accounting for this risk in the decision-making process.
 <br/>  
-&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST (National Institute of Standards and Technology) CSWP Cybersecurity White Paper.) This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for use by the USFG (United States Federal Government.)
+&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST (National Institute of Standards and Technology) CSWP (Cybersecurity White Paper.) This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for use by the USFG (United States Federal Government.)
 
 ### Objectives:
 - Investigate CrowdStrike incident
 - Investiagte on SolarWinds incident
-- Investiagte study on Ukraine cyber war
-- Investigate study on EPIC
+- Investiagte Ukraine cyber war telecom attack
 - Investigate JBS indident
+- Hytpothesize attck on EPIC (Healthcare software)
 - Create and/or simulate the reach of an incident using NetLogo
 - Address supply chain management concerns
   
@@ -18,13 +18,14 @@
 - Create guidelines for software adoption to add to existing policy
 - Create guidelines for the USFG to consider in M&A filings
 - Create guidelines for DoD (Department of Defense) when contractors attempt to consolidate
+- Propose addendums to existing anti-trust acts
 
 
 On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
 
 A report was conducted which concluded CrowdStrike did not follow proper procedures and protocols in reducing risk nor mitigated the software development lifecycle process.
 
-The solar winds attack began in September 2019 where they gained access to the SolarWinds Orion network. The cyber criminals injected malicious code where 18,000 customers were affected including government departments such as Homeland Security, State, Commerce and Treasury.  It was found that a malware was used to circumvent threat detection. 
+The solar winds attack began in September 2019 where they gained access to the SolarWinds Orion network. The cyber criminals injected malicious code where 18,000 customers were affected including government departments such as Homeland Security, State, Commerce and Treasury. It was found that a malware was used to circumvent threat detection. 
 
 In February 2022, the National Institute of Standards and Technology (NIST) published Special Publications (SP) 800-218  Secure Software Development Framework (SSDF) v1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities. The purpose of the publication is to follow guidance and incorporate industry best practices and standards throughout the development lifecycle. 
 The Open Worldwide Application Security Project (OWASP) in 2002 published a Developer Guide for application and system developers to follow best practices in developing a secure Software Assurance Model.  The Software Assurance Maturity Model (SAMM) is another software model which can be used in both the public and private sector. The objective of the SAMM model can be a compliance model in supporting the complete software lifecycle. The SAMM model can be broken down into five categories: Governance, Design, Implementation, Verification and Operations.
@@ -34,17 +35,10 @@ In recent years, there have been increased software vulnerabilities in both the 
 
 There are several industry standards and best practices software model frameworks for both the public and private sectors to use for software adoption. The government is required to follow strict guidance while maintaining industry best practice and standards in software assurance. Industries in both the public and private sectors not only must follow rules and strict guidelines but must be held accountable when making information in the software development lifecycle. 
 
-#### To Review the following:
-  - Case Studies  
-  - Attack Models  
-  - Risk Analysis  
-#### Implementation:
-  - Create and/or simulate the reach of an incident using NetLogo
-
 # **Proposed Project Timeline**
-![Gantt Chart](Gant%20Chart.png)
+![Gantt Chart](Gant%20Chart.png)  
 
-For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/personal/cflood_unomaha_edu/Documents/Consolidation%20%26%20NATSEC.xlsx?d=wbcecc40dd41248a8a813af53553fa10e&csf=1&web=1&e=96HGBF
+[Complete Timeline](https://unomail-my.sharepoint.com/:x:/r/personal/cflood_unomaha_edu/Documents/Consolidation%20%26%20NATSEC.xlsx?d=wbcecc40dd41248a8a813af53553fa10e&csf=1&web=1&e=96HGBF)
 
 
 ### Project Risk List
@@ -83,9 +77,10 @@ For our whole Proposed Timeline: https://unomail-my.sharepoint.com/:x:/r/persona
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |-------------------|---------|---------------------------|-------------|
 |Scala| No | Brian | Programming language used in Net Logo  |
-|Net Logo | No | Connor | Platform for building and simulating models of natural and social systems|
+|Net Logo | No | Connor | Platform for building and simulating models of natural and social systems |
 |ACM Digital Library| No | Sheryl | Search engine that helps users find academic and scholarly materials |
-|NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology|
+|NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology |
+|Qualtrics| No | All | Web based survey creation and distribution software |
 
 - NetLogo uses the programming language Scala for the construction of agent-based modeling. NetLogo can create models of computer networks to simulate packet transmission, congestion, and routing. It can introduce cyber-attacks, defense strategies, and countermeasures. A person can see real-world impact of vulnerabilities and attacks on their networks. 
 -------------
@@ -138,7 +133,7 @@ Researchers found the software engineering process requires confidence and trust
 As public agencies and institutions from the public sector at large have thoroughly digitalized their processes – both customer-facing and internal, they all face the challenge to efficiently communicate to their internal and external stakeholders that they are and will remain trustworthy. This adage applies to agencies from e-Health-
 hospitals, social insurances, and other institutions from the health-care ecosystem, e-Democracy - parliaments, electoral commissions, etc., and e-Government - municipalities, ministries, and all bodies engaged in governing public affairs.
 
-Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of Software Components.” Proceedings of the Central and Eastern European eDem and eGov Days 2024, Association for Computing Machinery, 2024, pp. 119–24. ACM Digital Library, https://doi.org/10.1145/3670243.3670249.  
+[Paulin, Alois. “Measuring Impact on Confidence in Institutions by Their Use of Software Components.” Proceedings of the Central and Eastern European eDem and eGov Days 2024, Association for Computing Machinery, 2024, pp. 119–24. ACM Digital Library,](https://doi.org/10.1145/3670243.3670249.)  
 
 --------
 ## Towards Agility in Design in Global Component Based Development(CBD) 
@@ -176,7 +171,7 @@ Supporting reusable components expanding across multiple platforms across geogra
 The potential benefits of implementing CBD methodologies in a globally distributed environment are many. Lessons from the aeronautics, automotive, electronics and computer hardware industries, in which Component Based architectures have been successfully employed for setting up globally distributed design and production in the reuse of software components
 
 ### **Reference:**  
-Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC, https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.  
+[Jarzombek, Joe. “Software Assurance: Enabling Security and Resilience throughout SDLC.” Assurance: Enabling Security and Resilience throughout SDLC,](https://csrc.nist.gov/CSRC/media//Projects/Forum/documents/2012/october-2012_fcsm-jjarzombek.pdf.)  
 
 ------------
 ## Title: National Security and Competition: How Courts Evaluate National Security when Assessing a Merger  
@@ -213,33 +208,23 @@ To only have one defense contractor as the sole provider to provide servers leav
 ---------
 **Reference:**    
 
-https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf  
-DOD Needs Better Insight into Risks from Mergers and Acquisitions.
-GAO-24-106129, United States Government Accountability Office, Oct. 2023, pg(s)49
-https://www.gao.gov/assets/d24106129.pdf.
-Federalnewsnetwork.com.
-https://perma.cc/3PPF-H893. Accessed 12 Feb. 2025.
-Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024,  
-https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger/#:~:text=3-,National%20Security%20and%20Competition%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.  
-https://ceur-ws.org/Vol-2940/paper33.pdf
-https://www.techtarget.com/whatis/feature/SolarWinds-hack-explained-Everything-you-need-to-know
+[National Security and Competition: How Courts Evaluate National Security When Assessing a Merger](https://jnslp.com/wp-content/uploads/2024/06/National_Security_and_Competition.pdf)  
+
+[DOD Needs Better Insight into Risks from Mergers and Acquisitions.GAO-24-106129, United States Government Accountability Office, Oct. 2023, pg(s)49](https://www.gao.gov/assets/d24106129.pdf.)  
+
+[Federalnewsnetwork.com. - How to mitigate the threat of industrial base consolidation](https://perma.cc/3PPF-H893)  
+
+[Michael, McLaughlin. “National Security and Competition: How Courts Evaluate National Security When Assessing a Merger.” Federal Trade Commission, no. 6621, June 2024,](https://jnslp.com/2024/06/27/national-security-and-competition-how-courts-evaluate-national-security-when-assessing-a-merger#:~:text=3-,National%20Security%20and%20Competition%20How%20Courts%20Evaluate,Security%20When%20Assessing%20a%20Merger&text=Michael%20McLaughlin%20examines%20the%20effect,ought%20to%20be%20framed%20cohesively.)  
+
+[Beyond SolarWinds: The Systemic Risks of Critical Infrastructures, State of Play, and Future Directions](https://ceur-ws.org/Vol-2940/paper33.pdf)  
+
+[SolarWinds hack explained: Everything you need to know](https://www.techtarget.com/whatis/feature/SolarWinds-hack-explained-Everything-you-need-to-know)  
 
 ---------
 #### **Initial Technical Plan**  
  1. Conduct a Qualtrics survey of cybersecurity professionals and decision makers to determine what parameters are most important when adopting new security software.
  2. Sign up to present at DEFCON402 meetup to find respondants.
  3. Review real world incidents (JBS, CrowdStrike, Ukraine)
-
-- [ ] Coverage
-- [ ] Depth
-- [ ] Soundness
-- [ ] Scope
-## !!Remove checklist before submitting for assignemnt!! 
-
-### **Resources Needed**
- - Qualtrics
- - Respondants
- - Criss Library Databases
 
 ### **Project Management Organization**
 - [ ]  Coverage
