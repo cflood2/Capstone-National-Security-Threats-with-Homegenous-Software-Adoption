@@ -18,22 +18,8 @@
 - Create guidelines for software adoption to add to existing policy
 - Create guidelines for the USFG to consider in M&A filings
 - Create guidelines for DoD (Department of Defense) when contractors attempt to consolidate
-- Propose addendums to existing anti-trust acts
+- Propose addendums to existing anti-trust acts  
 
-
-On July 19, 2024, the company known as CrowdStrike implemented a change in their software, which wreaked havoc and system outages among window systems nationwide. The  outage impacted several industries such as the  airlines, banking industries, hospitals, and a host of other businesses.  The error occurred when an update to CrowdStrike sensory, known as Falcon,  updated a logic error which triggered a system security flaw in their software. This security flaw caused millions of system outages and caused $5.4 billion dollars in damage. 
-
-A report was conducted which concluded CrowdStrike did not follow proper procedures and protocols in reducing risk nor mitigated the software development lifecycle process.
-
-The solar winds attack began in September 2019 where they gained access to the SolarWinds Orion network. The cyber criminals injected malicious code where 18,000 customers were affected including government departments such as Homeland Security, State, Commerce and Treasury. It was found that a malware was used to circumvent threat detection. 
-
-In February 2022, the National Institute of Standards and Technology (NIST) published Special Publications (SP) 800-218  Secure Software Development Framework (SSDF) v1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities. The purpose of the publication is to follow guidance and incorporate industry best practices and standards throughout the development lifecycle. 
-The Open Worldwide Application Security Project (OWASP) in 2002 published a Developer Guide for application and system developers to follow best practices in developing a secure Software Assurance Model.  The Software Assurance Maturity Model (SAMM) is another software model which can be used in both the public and private sector. The objective of the SAMM model can be a compliance model in supporting the complete software lifecycle. The SAMM model can be broken down into five categories: Governance, Design, Implementation, Verification and Operations.
-
-### Problem Statement:  
-In recent years, there have been increased software vulnerabilities in both the public and private sectors. Implementing a standardized software plan play a vital role in bridging the gap between software assurance and cyber security. The plan of action include implementing security in the design phase, identifying gaps between software assurance and cybersecurity and understanding risk factors within the software assurance domain.
-
-There are several industry standards and best practices software model frameworks for both the public and private sectors to use for software adoption. The government is required to follow strict guidance while maintaining industry best practice and standards in software assurance. Industries in both the public and private sectors not only must follow rules and strict guidelines but must be held accountable when making information in the software development lifecycle. 
 
 # **Proposed Project Timeline**
 ![Gantt Chart](Gant%20Chart.png)  
@@ -72,17 +58,6 @@ There are several industry standards and best practices software model framework
 ##### The World's Food Supply Has Never Been More Vulnerable  
  - One Smithfield Foods plant processing more than 15% of all pork in the U.S. The 2021 JBS attack sabotaged more than a fifth of all U.S. beef processing in a matter of minutes. Four processing companies slaughter more than 80% of US beef; four meatpacking companies process roughly two thirds of the nation's hogs; and five companies control about 60% of the broiler chicken market.  
 [archive.today link](http://archive.today/VRpje)  
--------------
-### **Resources Needed:**
-|Resource  | Dr. Hale needed? | Investigating Team member | Description |
-|-------------------|---------|---------------------------|-------------|
-|Scala| No | Brian | Programming language used in Net Logo  |
-|Net Logo | No | Connor | Platform for building and simulating models of natural and social systems |
-|ACM Digital Library| No | Sheryl | Search engine that helps users find academic and scholarly materials |
-|NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology |
-|Qualtrics| No | All | Web based survey creation and distribution software |
-
-- NetLogo uses the programming language Scala for the construction of agent-based modeling. NetLogo can create models of computer networks to simulate packet transmission, congestion, and routing. It can introduce cyber-attacks, defense strategies, and countermeasures. A person can see real-world impact of vulnerabilities and attacks on their networks. 
 -------------
 ## Measuring Impact on Confidence in Institutions by their Use of Software Components
 
@@ -223,12 +198,24 @@ To only have one defense contractor as the sole provider to provide servers leav
 ---------
 #### **Initial Technical Plan**  
  1. Conduct a Qualtrics survey of cybersecurity professionals and decision makers to determine what parameters are most important when adopting new security software.
- 2. Sign up to present at DEFCON402 meetup to find respondants.
- 3. Review real world incidents (JBS, CrowdStrike, Ukraine)
+ 3. Sign up to present at DEFCON402 monthly meetup to find respondants.
+ 4. Create and simulate a model of an attack and terticary effects using NetLogo. NetLogo is used to create models of all kinds of interconnected devices, diseases, people etc.
+ 5. Scala drives NetLogo, may need to learn Scala.
+ 6. Review real world incidents (JBS, CrowdStrike, Ukraine)  
 
-### **Project Management Organization**
-- [ ]  Coverage
-- [ ]  Labeling and Assignment
+-------------
+### **Resources Needed:**
+|Resource  | Dr. Hale needed? | Investigating Team member | Description |
+|-------------------|---------|---------------------------|-------------|
+|Scala| No | Brian | Programming language used in Net Logo  |
+|Net Logo | No | Connor | Platform for building and simulating models of natural and social systems |
+|ACM Digital Library| No | Sheryl | Search engine that helps users find academic and scholarly materials |
+|NIST | No | Ryan | U.S. federal agency that develops and promotes standards and technology |
+|Qualtrics| No | All | Web based survey creation and distribution software |
+
+> Note: NetLogo uses the programming language Scala for the construction of agent-based modeling. NetLogo can create models of computer networks to simulate packet transmission, congestion, and routing. It can introduce cyber-attacks, defense strategies, and countermeasures. A person can see real-world impact of vulnerabilities and attacks on their networks.
+> Note: Qualtrics is a web based tool used to create, distribute, and code qualitative or quantitative research.  
+
 
 ### **Presentation**
 [M1 Presentation](https://unomail-my.sharepoint.com/:p:/r/personal/rjthompson_unomaha_edu/Documents/M1%20Presentation.pptx?d=w572b000d007a44fbac5e42f1fb87c598&csf=1&web=1&e=Gjc7Mg)
