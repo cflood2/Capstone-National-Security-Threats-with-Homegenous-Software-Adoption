@@ -87,13 +87,13 @@ We discuss the concept of confidence as a type of trust, outline existing techni
 
 ### **Contributions Made:**  
 Recently, Hou & Janssen [18] have conducted a literature review on trust within the software ecosystem and in software as such.
-They  define the software ecosystem as one that comprises actors such as:
-• software end-users who “adopt a software product to makethem more productive”,
-• end-user organizations, who “expect that the software products add value to their organization’s goals”,
-• software engineers who create and maintain software products in their capacity as talented individuals,
+They define the software ecosystem as one that comprises actors such as:  
+• software end-users who “adopt a software product to make them more productive”,  
+• end-user organizations, who “expect that the software products add value to their organization’s goals”,  
+• software engineers who create and maintain software products in their capacity as talented individuals,  
 • software producing organizations, who employ software engineers to “build and maintain software to create valuable
-software that should be adopted as widely as possible”, and
-• package maintainers, who are “responsible for developing and maintaining software packages and their frameworks”.
+software that should be adopted as widely as possible”, and  
+• package maintainers, who are “responsible for developing and maintaining software packages and their frameworks”.  
 
 ### **Investigative Approach:**  
 Vargas &al. [27] point out that software developers choose third-party packages (libraries, frameworks, or APIs) arbitrarily, without considering the consequences of their decisions, unless constrained
@@ -102,7 +102,7 @@ by their organizations’ policies.
 The Guttman scale was used to as to conduct a series of short essay type question about how people dealt with trust. Trust factors included the following: third party access consumers data, what would happen if their data was breached and the transfer of consumer data.
 
 ### **Primary Findings:**  
-Researchers found the software engineering process requires confidence and trust, as software engineers use software using third-party components freely available on software repositories on the internet.  Researchers also found that to build on trust, individuals, institutions or technical systems can be measured by tools from techniques  as the Guttman or Likert scales 
+Researchers found the software engineering process requires confidence and trust, as software engineers use software using third-party components freely available on software repositories on the internet.  Researchers also found that to build on trust, individuals, institutions or technical systems can be measured by tools from techniques as the Guttman or Likert scales 
 
 ### **Challenges:**  
 As public agencies and institutions from the public sector at large have thoroughly digitalized their processes – both customer-facing and internal, they all face the challenge to efficiently communicate to their internal and external stakeholders that they are and will remain trustworthy. This adage applies to agencies from e-Health-
@@ -114,7 +114,7 @@ hospitals, social insurances, and other institutions from the health-care ecosys
 ## Towards Agility in Design in Global Component Based Development(CBD) 
 
 ### **Abstract:**  
-Component Based Development can be appealing to software developer to distribute  work to different sites to maintain ownership and responsibility of software components. This approach can decrease knowledge awareness to achieve agility in the design process. Methodologies used in the Component Based Development platform includes the following: automation of management interdependencies between software components and related files, the setup of bug tracking tools on a centralized server, using processes, tools, techniques and procedures and creating a how to guide on the methodology of tools being used and having a centralized Integrated Development Environment
+Component Based Development can be appealing to software developer to distribute work to different sites to maintain ownership and responsibility of software components. This approach can decrease knowledge awareness to achieve agility in the design process. Methodologies used in the Component Based Development platform includes the following: automation of management interdependencies between software components and related files, the setup of bug tracking tools on a centralized server, using processes, tools, techniques and procedures and creating a how to guide on the methodology of tools being used and having a centralized Integrated Development Environment
 
 ### **Problem Statement:**  
 > **What is the primary problem that the study investigated?**  
@@ -131,10 +131,10 @@ Component Based Development can be appealing to software developer to distribute
 > *Answer:*  How geographically software development teams do not communicate effectively across different industry and government sectors nor have the understanding on how to reuse software components in a rapidly changing environment.
 
 ### **Contributions Made:**  
-The LeCroy software team developed a toolbox  which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team.
+The LeCroy software team developed a toolbox which can be integrated in a developmental environment and also be accessible to all members of ta geographical dispersed team.
 
 ### **Investigative Approach:**  
-The LeCroy software team implemented  customer-specific components, modification of existing components with the customers system. Members of the team worked across three geographical locations. Vendors of third-party components were located in various countries (more than 25 vendors total)  
+The LeCroy software team implemented customer-specific components, modification of existing components with the customers system. Members of the team worked across three geographical locations. Vendors of third-party components were located in various countries (more than 25 vendors total)  
 
 ### **Challenges:**  
 Researcher argued that it took longer to develop reuse of software components than developing a system. The lack of standards, reusable components and the granularity and generality of components made expectations difficult to achieve. Also the ownership to develop mitigated software independently would reduce communication and coordination efforts. Other challenges include each site having specialized experience in a different domain or market (e.g. site A specializes in the banking sector while site B specializes in the insurance sector. This could hinder the development of neighboring sectors and implementation of agility in the software design that offers future integration of existing solutions
