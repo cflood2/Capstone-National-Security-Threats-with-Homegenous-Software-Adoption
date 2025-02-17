@@ -198,7 +198,7 @@ To only have one defense contractor as the sole provider to provide servers leav
 ---------
 #### **Initial Technical Plan**  
  1. Conduct a Qualtrics survey of cybersecurity professionals and decision makers to determine what parameters are most important when adopting new security software.
- 3. Sign up to present at DEFCON402 monthly meetup to find respondants.
+ 3. Sign up to present at DEFCON402 monthly meetup to find respondents.
  4. Create and simulate a model of an attack and terticary effects using NetLogo. NetLogo is used to create models of all kinds of interconnected devices, diseases, people etc.
  5. Scala drives NetLogo, may need to learn Scala.
  6. Review real world incidents (JBS, CrowdStrike, Ukraine)  
