@@ -1,17 +1,17 @@
 # **Executive Summary:**
-&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is amplified when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper attempts to create policy recommendations addressing cybersecurity risks associated with this issue. For example, disruptions to food suppliers would cause widespread food insecurity. If Big Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would cause starvation conditions for large numbers of people. 
+&nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is exacerbated when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper aims to develop policy recommendations to address cybersecurity risks associated with industry consolidation. For example, disruptions to food suppliers could lead to widespread food insecurity. If Big Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would create starvation conditions for large populations. 
 <br/>  
-&nbsp; The risk to National Security&mdash;and stability, for that matter&mdash;is clear. Addressing this new risk is important when the Federal Trade Commission examines mergers and acquisitions (M&A) between large companies in addition to companies accounting for this risk in the decision-making process.
+&nbsp; The risks to national security and societal stability are evident. It is crucial for the Federal Trade Commission to consider these cybersecurity threats when evaluating mergers and acquisitions (M&A) between large companies and for companies to incorporate these risks into their decision-making process.
 <br/>  
-&nbsp; This paper will assess past incidents and use analogous examples to create evidence for use in a NIST (National Institute of Standards and Technology) CSWP (Cybersecurity White Paper.) This paper will also propose addendums to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for use by the USFG (United States Federal Government.)
+&nbsp; This paper will analyze past incidents and analogous examples to support the development of a NIST (National Institute of Standards and Technology) CSWP (Cybersecurity White Paper.) Additionally, this paper will propose amendments to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for consideration by the USFG (United States Federal Government.)
 
 ### Objectives:
 - Investigate CrowdStrike incident
-- Investiagte on SolarWinds incident
-- Investiagte Ukraine cyber war telecom attack
-- Investigate JBS indident
-- Hytpothesize attck on EPIC (Healthcare software)
-- Create and/or simulate the reach of an incident using NetLogo
+- Investigate  SolarWinds incident
+- Investigate Ukraine cyber war telecom attack
+- Investigate JBS incident
+- Hypothesize implications of attack on EPIC (Healthcare software) based on previous incidents
+- Create and/or simulate a model using NetLogo
 - Address supply chain management concerns
   
 ### Goals:
@@ -31,8 +31,8 @@
 |Risk  | Impact     | Likelihood | Description |
 |-------------------|------------|------------|-------------|
 |Resources (70)|9|9|Due to the availability of personnel, the project may be delayed due to unforeseen issues, i.e., family, health, work issues, etc.|
-|Testing Environment (60)|9|9|The equipment needed to conduct test may not be available|
-|Scope Creep (70) | 8| 8 | In the requirements phase, the project may need modification due to significant changes to the project not included in the original requirement  |  
+|Testing Environment (60)|9|9|The equipment needed to conduct tests may not be available|
+|Scope Creep (70) | 8| 8 | In the requirements phase, the project may need modifications due to significant changes to the project not included in the original requirement  |  
 |Scheduling Risks (70)|9|9|The project may move to the left due to inclement weather, personnel, test environment, etc.|
 
 
@@ -40,23 +40,23 @@
 ### Initial Lit Review  
   
 ##### Evaluating and Mitigating Software Supply Chain Security Risks by Robert J. Ellison etal.
- - Discusses minimizing opportunites or incidents of unathorized changes. Relevent to CrowdStrike incident of 2024. Identifies supply chain risks and specifys evidence needs to to appropriotely mitigate. According to the report evry phase of life cycle must be part of mitigation: nitiation, development, configuration/deployment, operations/maintenance, and disposal. Lacks any mention of 
+ - Discusses minimizing opportunities or incidents of unauthorized changes. Relevant to the CrowdStrike incident of 2024. Identifies supply chain risks and specifies evidence needed to appropriately mitigate them. According to the report, every phase of the life cycle must be part of the mitigation: initiation, development, configuration/deployment, operations/maintenance, and disposal.  
 ----------
 ##### Cyber supply chain risks in cloud computing – bridging the risk assessment gap by Olusola Akinrolabu etal.
- - Proposes a model called *Cloud Supply Chain Cyber Risk Assessment*  to address dynamic risks associated with cloud computer. Survey dataset showed a lack of flexibility in assessment methods or no assessment at all.
+ - Proposes a model called *Cloud Supply Chain Cyber Risk Assessment* to address dynamic risks associated with cloud computing. Survey dataset showed a lack of flexibility in assessment methods or no assessment at all.  
 ----------
 #### Beyond SolarWinds: The Systemic Risks of Critical Infrastructures, State of Play, and Future Directions
-- Discusses the reliability of the framework for the cybersecurity of critical infrastructure. It highlights the operation of critical infrastructure, interconnectedness of  the software supply chain.
+- Discusses the reliability of the framework for the cybersecurity of critical infrastructure. It highlights the operation of critical infrastructure and the interconnectedness of the software supply chain.  
 ----------
 ##### Cloud-Based Disaster Recovery: Reducing Risk and Improving Continuity by Premkumar Ganesan
- - Covers recovery strategies for cloud environment. Cloud Based Disaster Recovery (CBDR). Examples include backup environments, failovers, and redundancies.
+ - Covers recovery strategies for cloud environments. Cloud Based Disaster Recovery (CBDR). Examples include backup environments, failovers, and redundancies.  
 ----------  
 ##### Lawmakers Scrutinize Meatpacking as JBS Rebounds From Cyberattack
- - Cyber attack affted JBS meat packing plants in Australia, Canada, and the United States. Operatiosn were shut down for at least a day. Concerns from congressmembers were expressed "If it was 10 or 20 companies instead of 4 wed be less vulnerable." Follow up research suggest nothing came of congressional concerns.  
+ - Cyberattack affected JBS meatpacking plants in Australia, Canada, and the United States. Operations were shut down for at least a day. Concerns from congress members were expressed: "If it was 10 or 20 companies instead of 4, we'd be less vulnerable." Follow-up research suggests nothing came of the congressional concerns.  
 [archive.today link](http://archive.today/rHVBe)
 ----------  
 ##### The World's Food Supply Has Never Been More Vulnerable  
- - One Smithfield Foods plant processing more than 15% of all pork in the U.S. The 2021 JBS attack sabotaged more than a fifth of all U.S. beef processing in a matter of minutes. Four processing companies slaughter more than 80% of US beef; four meatpacking companies process roughly two thirds of the nation's hogs; and five companies control about 60% of the broiler chicken market.  
+ - One Smithfield Foods plant processes more than 15% of all pork in the U.S. The 2021 JBS attack disrupted more than a fifth of all U.S. beef processing in a matter of minutes. Four processing companies slaughter more than 80% of U.S. beef; four meatpacking companies process roughly two-thirds of the nation's hogs; and five companies control about 60% of the broiler chicken market.  
 [archive.today link](http://archive.today/VRpje)  
 -------------
 ## Measuring Impact on Confidence in Institutions by their Use of Software Components
