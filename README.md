@@ -82,7 +82,7 @@ We discuss the concept of confidence as a type of trust, outline existing techni
 > *Answer:* The research indicated how can you measure impact on confidence / trust in an institution, when the institution updates its software in a way that neither in-house users of the institution, nor customers of the institution can directly perceive the change. To the best of our knowledge, this question has not yet been addressed.
 
 
-> **What are the practioners or prior research lacking an understanding of the phenomenon being studied?**    
+> **What are the practitioners or prior research lacking an understanding of the phenomenon being studied?**    
 > *Answer:* Tools or techniques which can be used to measure the confidence level and trust between in-house users of the institution  and the consumers who receive the updates when software baseline is changed. A good example is when the vendor CrowdStrike implemented a software change which wreaked havoc to government agencies and organizations. One software update, deemed critical,  grounded our nation’s infrastructure throughout the country to a complete halt and work stoppage.
 
 ### **Contributions Made:**  
