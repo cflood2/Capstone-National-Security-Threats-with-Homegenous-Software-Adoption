@@ -214,6 +214,7 @@ To only have one defense contractor as the sole provider to provide servers leav
 |Qualtrics| No | All | Web based survey creation and distribution software |
 
 > Note: NetLogo uses the programming language Scala for the construction of agent-based modeling. NetLogo can create models of computer networks to simulate packet transmission, congestion, and routing. It can introduce cyber-attacks, defense strategies, and countermeasures. A person can see real-world impact of vulnerabilities and attacks on their networks.
+
 > Note: Qualtrics is a web based tool used to create, distribute, and code qualitative or quantitative research.  
 
 
