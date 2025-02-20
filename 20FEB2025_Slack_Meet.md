@@ -25,3 +25,4 @@ DECIDE - Do we want to stick to food industry or pivot to something else
 DOJ - Ever denied M&A because of cyber reasons? Has it ever been considered?
 DOD - Ever denied M&A becaose of cyber concerns?
 
+Easiest way to share sources? Upload pdf docs? etc.
