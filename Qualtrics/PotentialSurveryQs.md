@@ -8,3 +8,5 @@ In no particular order
   ex. Price? Functionality? Support?  
 6 - Does market share factor into the decision making process?  
 7 - Is a large market share a positive or negative?  
+8 - Do you work for a private organization or a government organization?
+9 - What is your job title?
