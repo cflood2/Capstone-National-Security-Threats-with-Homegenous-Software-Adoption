@@ -1,5 +1,5 @@
 # Cybersecurity and Consolidation: 
-## 1. Abstract  
+## 1. Abstract - Summary of Claims and Findings
   - Research question(s):
     > 1. What cybersecurity risks arise from consolidation in critical infrastructure?  
     > 2. How have past cyber attacks on large companies affected national security and societal stability?  
