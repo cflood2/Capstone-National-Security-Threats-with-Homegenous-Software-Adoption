@@ -50,4 +50,4 @@
   - Final thoughts > TBD
 
 ## 7. References
-    Full list of cited works in the appropriate *whatever* style
+  #### APA Style
