@@ -1,4 +1,5 @@
 # Environment Setup (Part of README)
+Include DEFCON presentaion and notes somewhere
  > #### Ruberic  
   > - [ ] Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
   > - [ ] Installation instructions work as expected and correctly setup needed tooling/environments.
