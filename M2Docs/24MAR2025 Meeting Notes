@@ -1,0 +1,11 @@
+- What is shock duration? - Specific to provider or across industry?  
+-	Shock applied at each tick or over how many ticks? Recovery rates?
+- What is the size?
+- What is percentage? - Market share?
+- What is the visualization doing? 
+- Result graphing?
+- NVD vs AMD – Consumers look to other producers for products? 
+- Entities ask other producers to up production?
+- Could the shock be modeled as an agent? 
+- Moves random around the board then when collides it produces a reaction.
+- Model locations over map
