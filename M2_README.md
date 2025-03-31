@@ -9,16 +9,17 @@ Include DEFCON presentaion and notes somewhere
 # Project Realization  - Sheryl  
 ## This submission is a seperate .md doc called M2ProjectRealization.md (Forthcoming)  
 > #### Ruberic  
->  - [ ] It is clear that the team has made non-trivial effort and progress towards project realization.  
->  - [ ] Code artifacts and tasks are documented well. Documentation is clear and illustrative.  
->  - [ ] The outcomes are successfully demoed for Dr. Hale. The team addresses and handles questions well.  
+>  - [x] It is clear that the team has made non-trivial effort and progress towards project realization.  
+>  - [x] Code artifacts and tasks are documented well. Documentation is clear and illustrative.  
+>  - [x] The outcomes are successfully demoed for Dr. Hale. The team addresses and handles questions well.
+>        **NOTE** Format Mardown for Sheryl report - Ryan
 
 # Research Paper Outline  - Initial by Ryan, reviewed and revised by team  
 ## This submission is a .docx file uploaded to the assignment on Canvas. The outline also needs to be on github. it is under Outline.md (Forthcoming)
-1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper.
+1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper. (In PROGRESS)
 2) Has defined section headings for each of the sections you expect to have in your paper (COMPLETE)
-3) Has a bulleted list of talking points you expect to fall within each section
-4) Section headings and bullets build a narrative flow that is compatibile with your main research argument.
+3) Has a bulleted list of talking points you expect to fall within each section (COMPLETE)
+4) Section headings and bullets build a narrative flow that is compatibile with your main research argument. (REVIEW by team)
    
 # Diagrams (Part of README) - Brian  
  > #### Ruberic  
@@ -27,8 +28,8 @@ Include DEFCON presentaion and notes somewhere
 
 # Issue Tracking and Planning (Submission captured by GitHub activity)  - Connor  
  > #### Ruberic  
- > - [ ] Sufficient tasks commensurate with the duration of the milestone are defined. Each task is specific and relevant to the project. Forward progress is made on most tasks.
- > - [ ] Issues are all marked with a status tag or cards are placed in the appropriate column in the kanban. Each is in the backlog, finished and in the 'done' category, or allocated to someone for handling as part of the current sprint.
+ > - [x] Sufficient tasks commensurate with the duration of the milestone are defined. Each task is specific and relevant to the project. Forward progress is made on most tasks.
+ > - [x] Issues are all marked with a status tag or cards are placed in the appropriate column in the kanban. Each is in the backlog, finished and in the 'done' category, or allocated to someone for handling as part of the current sprint.
 
 # Presentation  - Ryan  
 ## Slides submitted on canvas - Also need a recorded version submitted. Pre-recorded, no class presentation
