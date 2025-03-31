@@ -1,8 +1,10 @@
 # Environment Setup (Part of README)  - Brian and Connor  
 Include DEFCON presentaion and notes somewhere
  > #### Ruberic  
-  > - [ ] Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
-  > - [ ] Installation instructions work as expected and correctly setup needed tooling/environments.
+  > - [ ] C Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
+  > - [ ] C Installation instructions work as expected and correctly setup needed tooling/environments.
+  > - [ ] B Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
+  > - [ ] B Installation instructions work as expected and correctly setup needed tooling/environments.
 
 # Project Realization  - Sheryl  
 ## This submission is a seperate .md doc called M2ProjectRealization.md (Forthcoming)  
