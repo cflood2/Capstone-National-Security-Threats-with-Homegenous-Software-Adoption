@@ -29,7 +29,7 @@ Include DEFCON presentaion and notes somewhere
  > - [ ] Issues are all marked with a status tag or cards are placed in the appropriate column in the kanban. Each is in the backlog, finished and in the 'done' category, or allocated to someone for handling as part of the current sprint.
 
 # Presentation  - Ryan  
-## Slides submitted on canvas - Also need a recorded version submitted. Ask hale if we will present in class  
+## Slides submitted on canvas - Also need a recorded version submitted. Pre-recorded, no class presentation
 ### Include  
 1) conveying a sense of interest and excitement about your project  
 2) cool product demos, and  
