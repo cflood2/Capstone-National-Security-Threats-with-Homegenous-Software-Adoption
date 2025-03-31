@@ -14,7 +14,7 @@ Include DEFCON presentaion and notes somewhere
 # Research Paper Outline  - Initial by Ryan, reviewed and revised by team  
 ## This submission is a .docx file uploaded to the assignment on Canvas. The outline also needs to be on github. it is under Outline.md (Forthcoming)
 1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper.
-2) Has defined section headings for each of the sections you expect to have in your paper
+2) Has defined section headings for each of the sections you expect to have in your paper (COMPLETE)
 3) Has a bulleted list of talking points you expect to fall within each section
 4) Section headings and bullets build a narrative flow that is compatibile with your main research argument.
    
