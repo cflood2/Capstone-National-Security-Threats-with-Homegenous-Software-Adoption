@@ -5,7 +5,7 @@ Include DEFCON presentaion and notes somewhere
   > - [ ] Installation instructions work as expected and correctly setup needed tooling/environments.
 
 # Project Realization  - Sheryl  
-## This submission is a seperate .md doc call M2ProjectRealization.md (Forthcoming)  
+## This submission is a seperate .md doc called M2ProjectRealization.md (Forthcoming)  
 > #### Ruberic  
 >  - [ ] It is clear that the team has made non-trivial effort and progress towards project realization.  
 >  - [ ] Code artifacts and tasks are documented well. Documentation is clear and illustrative.  
