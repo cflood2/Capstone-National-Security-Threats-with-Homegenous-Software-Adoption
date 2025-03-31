@@ -5,8 +5,6 @@
     > 2. How have past cyber attacks on large companies affected national security and societal stability?  
     > 3. Using analogous examples, what is shown regarding the vulnerabilities of critical industry monopolization?  
   - Survey of decision makers, both IT and Non-IT, NetLogo Agent-based modeling  
-  - Results TBD
-  - Conclusion TBD
     > # 500+ Word Abstract Draft
 	> &nbsp; **INTORDUCTION/PURPOSE:** Over the last several years ransomware attack on large corporations have increased. These large corporations also operate within what the Federal government refers to as critical infrastructure. There are 16 area of critical infrastructure from energy to military production to food and agriculture. JBS—one of the victims—Is one of the largest food and agriculture companies in the world, because of consolidation. The market share of the company has created a unique risk to the country. This risk is a single point of failure on an industrial scale. If a cyberattack shuts down large portions of critical infrastructure, say 25%, how long before the downstream effects cause wide spread destabilization or in the case of food production, how long before food scarcity becomes a major problem? Could a cyberattack cause a potential famine?  
    &nbsp; In addition to consolidation, wide spread market share has also demonstrated a potential risk. The effects of the Crowd Strike update mistake in 2024 demonstrated how one company with a large market share can—unintentionally—cause a massive amount of chaos. While increasing market adoption is usually a sign of how effective or well made a product is, in the age of unlimited connection, at what point could voluntary market consolidation also become a risk? Are decision makers aware of the potential hazard? Consolidation in critical infrastructure sectors significantly increases negative downstream effects and creates single points of failure on an industrial scale.  
@@ -14,6 +12,7 @@
 	 > &nbsp; Our team also constructed two agent-based models using NetLogo. Model one simulates a network attack. Depending on starting parameters, the network attack gives a time frame for an outage. The length of the outage impacts the second model, which simulates a food production supply chain. If the network attack caused a three-day outage, then we based our supply chain model on a three-day outage. Low security companies could have a longer outage and vice versa. Small market share companies would have a smaller effect on the supply chain, less downstream effects etc.  
 	> &nbsp; **RESULTS:**  
 	> &nbsp; **DISCUSSION:**  
+	> &nbsp; **CONCLUSION:**  
 
 ## 2. Introduction  
   - Background information on the topic – JBS and CrowdStrike hacks
@@ -27,38 +26,52 @@
 ## 3. Literature Review  
   - Overview of existing research  
   - Key theories, models, or frameworks  
-  - Gaps in the literature. Are industrial level single points of failure ever addressed or mentioned?  
-  - How your research addresses these gaps. Our research creates a model to simulate this gap and hypothesize about downstream effects.  
+  - Gaps in the literature. Are industrial level single points of failure ever addressed or mentioned? **Not really.**  
+  - How your research addresses these gaps.
+  	- **ANS: Our research uses a model to simulate this gap and hypothesize/demonstrate downstream effects.**
+
+
 ## 4. Methodology  
   - Research design:
     - Detail survey questions and goals, as well as target respondents  
+    - Summerize Case Study Findings (Below)
     - Detail NetLogo model
-      - What are the agents in the model? – List agents in each model
-      - Model 1. – Network attack, what we are trying to show and expect  
-      - Model 2. – Supply Chain effects of network attack i.e. take length of network attack, input disruption time frame into supply chain model. Analyze results.
+      - Model 1. – Network attack, what we are trying to show and expect (Simulates crowdstrike)
+      	- What are the agents in the model?
+      	- List agents in each model  
+      	- Explain what sliders represent  
+      	- Explain What outcomes mean  
+      	- Explain what a tick represents  
+      - Model 2. – Supply Chain effects of network attack i.e. take length of network attack, input disruption time frame into supply chain model. Analyze results (Simulates JBS).
+      	- What are the agents in the model?
+      	- List agents in each model  
+      	- Explain what sliders represent  
+      	- Explain What outcomes mean  
+      	- Explain what a tick represents
+       
     
   - Data collection methods:
-    - Qualtrics survey  - See sampling techniques below
+    - Qualtrics survey
+    	- Sampling techniques
+      	- Sent survey to colleagues and colleagues of colleagues in security field both public and private
     - Analysis of case Study of JBS
     - Analysis of case study CrowdStrike  
-    - Sampling techniques
-      - Sent survey to colleagues and colleagues of colleagues in security field both public and private
-  - Data analysis methods > TBD    
+    
 ## 5. Results
-  - Presentation of data > TBD
-  - Visual aids (tables, graphs, charts) > TBD
-    - Charts of results of survey
-    - Charts of results of models
+  - Presentation of data  
+  	- Visual aids (tables, graphs, charts) --> Diagram directory of GitHub
+    		- Charts of results of survey
+    		- Charts of results of models
   - Key findings
 ## 6. Discussion
-  - Interpretation of results > TBD
-  - Comparison with existing literature > TBD
-  - Implications of findings > TBD
-  - Limitations of the study > TBD
-  - Recommendations for future research > More modeling, wider survey
+  - Interpretation of results --> Most respondants viewed large market share as low-risk, and a positive trait when vetting software. *NOTE:* The idea of this as a single point of failure was only presented to the group after the survey was taken. Consider how opinion may have changed (More research) and also use this as evidence of a lack of awareness regarding this potential issue.
+  - Comparison with existing literature --> This specific issue
+  - Implications of findings --> Respondants mostly view large market-share as a low-risk positive attribute. THis suggests homogenous software adoption will continue to grow. If another CrowdStrike incident occured, it may result is an even larger outage, which means even greater single point of failure, nationally.
+  - Limitations of the study --> While results varied, ultimately brought up more questions. For example, responses to market-share question positive/negative, shuold be followed up with more research on *why* positive or negative. This project does not have time to address this gap.
+  - Recommendations for future research --> Refine modeling, wider survey focused on the *why* of positive/negative views on market-share
 ## 7. Conclusion
-  - Summary of findings > TBD
-  - Contribution to the field > TBD
+  - Summary of findings --> Survey indicated a lack of awareness or concern regarding market-share. It is our opinion that this is a greater risk than is considered by professional practitioneers
+  - Contribution to the field --> Model and research serves as evidence for future legislation 
   - Final thoughts > TBD
 
 ## 7. References
