@@ -11,7 +11,7 @@ Include DEFCON presentaion and notes somewhere
 > #### Ruberic  
 >  - [x] It is clear that the team has made non-trivial effort and progress towards project realization.  
 >  - [x] Code artifacts and tasks are documented well. Documentation is clear and illustrative.  
->  - [x] The outcomes are successfully demoed for Dr. Hale. The team addresses and handles questions well.
+>  - [x] The outcomes are successfully demoed for Dr. Hale. The team addresses and handles questions well.  
 >        **NOTE** Format Mardown for Sheryl report - Ryan
 
 # Research Paper Outline  - Initial by Ryan, reviewed and revised by team  
