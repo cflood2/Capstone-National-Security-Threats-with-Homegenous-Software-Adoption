@@ -23,7 +23,7 @@
     > 3. What lessons can be drawn from analogous examples, to understand the vulnerabilities of critical industry monopolization? 
   - Significance of the study: A lack of awareness left unaddressed has the potential to disrupt the social contract.  
   - Create a model to simulate single point of failure. Calculate how may days food production would need to stop before starvation conditions become a risk. 
-  - Consolidation in critical infrastructure sectors significantly increases negative downstream effects and creates single points of failure on an industrial scale. 
+  - **THESIS** Consolidation in critical infrastructure sectors significantly increases negative downstream effects and creates single points of failure on an industrial scale. 
 ## 3. Literature Review  
   - Overview of existing research  
   - Key theories, models, or frameworks  
