@@ -10,7 +10,12 @@
    &nbsp; In addition to consolidation, wide spread market share has also demonstrated a potential risk. The effects of the Crowd Strike update mistake in 2024 demonstrated how one company with a large market share can—unintentionally—cause a massive amount of chaos. While increasing market adoption is usually a sign of how effective or well made a product is, in the age of unlimited connection, at what point could voluntary market consolidation also become a risk? Are decision makers aware of the potential hazard? Consolidation in critical infrastructure sectors significantly increases negative downstream effects and creates single points of failure on an industrial scale.  
 	 > &nbsp; **METHODS:** Our research team has created a survey to measure weather or not market-share is a factor in the decision-making process when companies adopt, in addition to other parameters. Considering market-share, is this viewed as a positive or negative. Due to staying within scope, we did not cover the specifics of why it was positive or negative. The survey also shows that while many cybersecurity professionals make decisions regarding software, more non-security professionals are decision makers.  
 	 > &nbsp; Our team also constructed two agent-based models using NetLogo. Model one simulates a network attack. Depending on starting parameters, the network attack gives a time frame for an outage. The length of the outage impacts the second model, which simulates a food production supply chain. If the network attack caused a three-day outage, then we based our supply chain model on a three-day outage. Low security companies could have a longer outage and vice versa. Small market share companies would have a smaller effect on the supply chain, less downstream effects etc.  
-	> &nbsp; **RESULTS:**  
+	> &nbsp; **RESULTS:**
+    > When assessing new software, do you take market share (How many other companies have adopted) into consideration? (50% Yes, 50% No)
+    > Would you consider widespread market adoption a positive or negative factor? (17% Extremely Positive, 35% Somewhat Positive, 48%  Neutral, 0% Somehwat Negative, 0% Extremely Negative)
+    > Would you consider widespread market adoption a high risk or low risk? (4% High Risk, 43% Medium Risk, 43% Low Risk, 9% Near Zero Risk)
+    
+    
 	> &nbsp; **DISCUSSION:**  
 	> &nbsp; **CONCLUSION:**  
 
@@ -58,7 +63,10 @@
     - Analysis of case study CrowdStrike  
     
 ## 5. Results
-  - Presentation of data  
+  - Presentation of data
+	- When assessing new software, do you take market share (How many other companies have adopted) into consideration? (50% Yes, 50% No)
+	- Would you consider widespread market adoption a positive or negative factor? (17% Extremely Positive, 35% Somewhat Positive, 48%  Neutral, 0% Somehwat Negative, 0% Extremely Negative)
+	- Would you consider widespread market adoption a high risk or low risk? (4% High Risk, 43% Medium Risk, 43% Low Risk, 9% Near Zero Risk)  
   	- Visual aids (tables, graphs, charts) --> Diagram directory of GitHub  
 		- Charts of results of survey  
 		- Charts of results of models  
