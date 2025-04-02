@@ -24,8 +24,8 @@ Include DEFCON presentaion and notes somewhere
    
 # Diagrams (Part of README) - Brian  
  > #### Ruberic  
- > - [ ] The diagrams are useful for conveying project details.
- > - [ ] The diagrams clarify the interoperation or operation of a feature of interest. They provides descriptive clarity.  
+ > - [x] The diagrams are useful for conveying project details.
+ > - [x] The diagrams clarify the interoperation or operation of a feature of interest. They provides descriptive clarity.  
   
 ![MarketShare](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart1.png?raw=true)
 ![MarketShare2](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart2.png)  
