@@ -6,17 +6,17 @@ Include DEFCON presentaion and notes somewhere
   > - [ ] B Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
   > - [ ] B Installation instructions work as expected and correctly setup needed tooling/environments.
 
-# Project Realization  - Sheryl  
-## This submission is a seperate .md doc called M2ProjectRealization.md (Forthcoming)  
+# Project Realization  - Sheryl  (COMPLETE)
+## [Project Realization Report](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/prototype-progress-report.md)  
 > #### Ruberic  
 >  - [x] It is clear that the team has made non-trivial effort and progress towards project realization.  
 >  - [x] Code artifacts and tasks are documented well. Documentation is clear and illustrative.  
 >  - [x] The outcomes are successfully demoed for Dr. Hale. The team addresses and handles questions well.  
 >        **NOTE** Format Mardown for Sheryl report - Ryan
 
-# Research Paper Outline  - Initial by Ryan, reviewed and revised by team  
+# Research Paper Outline  - Initial by Ryan, reviewed and revised by team  (UNDER REVIEW BY TEAM)
 ## This submission is a .docx file uploaded to the assignment on Canvas. The outline also needs to be on github. it is under Outline.md (Forthcoming)
-1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper. (In PROGRESS)
+1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper. (REVIEW by team)
 2) Has defined section headings for each of the sections you expect to have in your paper (COMPLETE)
 3) Has a bulleted list of talking points you expect to fall within each section (COMPLETE)
 4) Section headings and bullets build a narrative flow that is compatibile with your main research argument. (REVIEW by team)
@@ -24,14 +24,18 @@ Include DEFCON presentaion and notes somewhere
 # Diagrams (Part of README) - Brian  
  > #### Ruberic  
  > - [ ] The diagrams are useful for conveying project details.
- > - [ ] The diagrams clarify the interoperation or operation of a feature of interest. They provides descriptive clarity.
+ > - [ ] The diagrams clarify the interoperation or operation of a feature of interest. They provides descriptive clarity.  
+  
+![MarketShare](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart1.png?raw=true)
+![MarketShare2](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart2.png)  
+![MarketShare3](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart3.png)
 
-# Issue Tracking and Planning (Submission captured by GitHub activity)  - Connor  
+# Issue Tracking and Planning (Submission captured by GitHub activity)  - Connor  (COMPLETE)
  > #### Ruberic  
  > - [x] Sufficient tasks commensurate with the duration of the milestone are defined. Each task is specific and relevant to the project. Forward progress is made on most tasks.
  > - [x] Issues are all marked with a status tag or cards are placed in the appropriate column in the kanban. Each is in the backlog, finished and in the 'done' category, or allocated to someone for handling as part of the current sprint.
 
-# Presentation  - Ryan  
+# Presentation  - Ryan 
 ## Slides submitted on canvas - Also need a recorded version submitted. Pre-recorded, no class presentation
 ### Include  
 1) conveying a sense of interest and excitement about your project  
