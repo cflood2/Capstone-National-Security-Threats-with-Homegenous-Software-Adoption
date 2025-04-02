@@ -15,6 +15,7 @@ Include DEFCON presentaion and notes somewhere
 >        **NOTE** Format Mardown for Sheryl report - Ryan
 
 # Research Paper Outline  - Initial by Ryan, reviewed and revised by team  (UNDER REVIEW BY TEAM)
+## [Research Paper Outline](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/PaperOutline.md)
 ## This submission is a .docx file uploaded to the assignment on Canvas. The outline also needs to be on github. it is under Outline.md (Forthcoming)
 1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper. (REVIEW by team)
 2) Has defined section headings for each of the sections you expect to have in your paper (COMPLETE)
