@@ -1,10 +1,25 @@
 # Environment Setup (Part of README)  - Brian and Connor  
-Include DEFCON presentaion and notes somewhere
+
  > #### Ruberic  
   > - [ ] C Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
   > - [ ] C Installation instructions work as expected and correctly setup needed tooling/environments.
   > - [ ] B Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
   > - [ ] B Installation instructions work as expected and correctly setup needed tooling/environments.
+### Supply Chain Model
+> Initial Conditions: ​ 
+> Each firm starts at full production capacity, 14 days of meat supply in the system, and has a food security index of 100 (best case). ​ 
+> Shock Scenarios:​  
+> Mild – A small-scale attack with 10% production loss and a 5 tick recovery.​  
+> Recovery – A moderate attack with 30% production loss, 20 tick recovery, but has industry support for recovery. ​  
+> Severe – A major cyberattack with 50% production loss and a 30 tick recovery time.   
+> Key Parameters: ​  
+> Shock duration: Number of ticks that the initial "shock" lasts. (0-30)The greater the duration, the greater the disruption (0-30)​  
+> Shock percentage: Production reduction during shock (10-70%).  It represents the total immediate production reduction.​  
+> Recovery rate: Speed at which the affected firms recover (1-50%) per tick. ​  
+> Cascading effects: The rate at which disruptions spread to other firms (0 – 100%) The higher values mean the supply chain is affected more. ​  
+> Price elasticity: How prices respond to changes in supply. (.5-3.0) The higher values create more dramatic price hikes. ​  
+> Shock-start time: This is the tick number when disruption begins. It allows for observing baseline values before a shock happens. ​  
+> National security threshold: The risk level that simulates national security concerns (0-100). The higher the value, the more sensitive the model will report national security risks. The lower threshold means that the model will only report national security risks only in severe situations.   
 
 # Project Realization  - Sheryl  (COMPLETE)
 ## >>> [Project Realization Report](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/prototype-progress-report.md) <<<  
