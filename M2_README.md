@@ -7,7 +7,7 @@ Include DEFCON presentaion and notes somewhere
   > - [ ] B Installation instructions work as expected and correctly setup needed tooling/environments.
 
 # Project Realization  - Sheryl  (COMPLETE)
-## [Project Realization Report](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/prototype-progress-report.md)  
+## >>> [Project Realization Report](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/prototype-progress-report.md) <<<  
 > #### Ruberic  
 >  - [x] It is clear that the team has made non-trivial effort and progress towards project realization.  
 >  - [x] Code artifacts and tasks are documented well. Documentation is clear and illustrative.  
@@ -15,7 +15,7 @@ Include DEFCON presentaion and notes somewhere
 >        **NOTE** Format Mardown for Sheryl report - Ryan
 
 # Research Paper Outline  - Initial by Ryan, reviewed and revised by team  (UNDER REVIEW BY TEAM)
-## [Research Paper Outline](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/PaperOutline.md)
+## >>> [Research Paper Outline](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/PaperOutline.md) <<<  
 ## This submission is a .docx file uploaded to the assignment on Canvas. The outline also needs to be on github. it is under Outline.md (Forthcoming)
 1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper. (REVIEW by team)
 2) Has defined section headings for each of the sections you expect to have in your paper (COMPLETE)
