@@ -43,10 +43,10 @@ Include DEFCON presentaion and notes somewhere
 2) cool product demos, and  
 3) interesting intermediate findings of conducting your projects.
 > #### Ruberic
-> - [ ] Team presents information in a logical, interesting sequence which the audience can easily follow.
-> - [ ] Team overviews relevant elements of the project (including goals, findings, outcomes, etc) succinctly, while using time well to focus on the most important and salient project outcomes.
-> - [ ] Thorough understanding and grasp of the project is demonstrable. Students answer all questions with explanations and elaboration as appropriate.
-> - [ ] Slides have few or no misspellings, grammatical errors, or unprofessional content. No inappropriate memes or things of this nature are present.
-> - [ ] Team maintains good presentational flow between team members.
-> - [ ] The team covers the relevant content developed in the milestone.
-> - [ ] The presentation makes appropriate use of graphics in support of the major points. There are no large blocks of text or unwieldy slides.
+> - [x] Team presents information in a logical, interesting sequence which the audience can easily follow.
+> - [x] Team overviews relevant elements of the project (including goals, findings, outcomes, etc) succinctly, while using time well to focus on the most important and salient project outcomes.
+> - [x] Thorough understanding and grasp of the project is demonstrable. Students answer all questions with explanations and elaboration as appropriate.
+> - [x] Slides have few or no misspellings, grammatical errors, or unprofessional content. No inappropriate memes or things of this nature are present.
+> - [x] Team maintains good presentational flow between team members.
+> - [x] The team covers the relevant content developed in the milestone.
+> - [x] The presentation makes appropriate use of graphics in support of the major points. There are no large blocks of text or unwieldy slides.
