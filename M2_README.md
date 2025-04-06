@@ -1,18 +1,11 @@
-# Environment Setup (Part of README)  - Brian and Connor  
-
- > #### Ruberic  
-  > - [x] C Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
-  > - [x] C Installation instructions work as expected and correctly setup needed tooling/environments.
-  > - [x] B Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
-  > - [x] B Installation instructions work as expected and correctly setup needed tooling/environments.
-
+# Environment Setup 
 
 For our modeling we used a program called NetLogo. NetLogo is a programmable modeling environment used for simulating natural and social phenomena. NetLogo is agent-based, meaning it allows users to create and simulate the actions of individual "agents" (like animals, people, or vehicles) in a system to observe how complex behaviors emerge from simple rules.
 
 NetLogo is free and supported by Northwestern University. It is available for Windows, Mac, and Linux and is as simple as requesting to downlaod the installer, then running it. After that, an exising model can be imported and modificatiosn amde, or users can start from scratch. NetLogo models are written in a language called Scala.
 
 ## Network Model
-### Netowkr Model varaibles and parameters
+### Network Model varaibles and parameters
 **User-Nodes:** The number of nodes that represent the number of user within a network.     
 **Crowdstrike-connections:** The number of node connections to the crowdstrike node. For the outage a large number of connections is used.      
 **Average-node-connection:** The average number of times each node is connected to another node.     
