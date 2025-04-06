@@ -1,8 +1,8 @@
 # Environment Setup (Part of README)  - Brian and Connor  
 
  > #### Ruberic  
-  > - [ ] C Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
-  > - [ ] C Installation instructions work as expected and correctly setup needed tooling/environments.
+  > - [x] C Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
+  > - [x] C Installation instructions work as expected and correctly setup needed tooling/environments.
   > - [ ] B Documentation is clear and concise, but provides sufficient detail to understand the basic setup details.  
   > - [ ] B Installation instructions work as expected and correctly setup needed tooling/environments.
 
@@ -29,13 +29,9 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 # Project Realization  
 ## >>> [Project Realization Report](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/prototype-progress-report.md) <<<  
 
-# Research Paper Outline  - Initial by Ryan, reviewed and revised by team  (UNDER REVIEW BY TEAM)
-## >>> [Research Paper Outline](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/PaperOutline.md) <<<  
-## This submission is a .docx file uploaded to the assignment on Canvas. The outline also needs to be on github. it is under Outline.md (Forthcoming)
-1) Contains a well-written 500 word or less abstract that previews the argument to be made in the paper. (REVIEW by team)
-2) Has defined section headings for each of the sections you expect to have in your paper (COMPLETE)
-3) Has a bulleted list of talking points you expect to fall within each section (COMPLETE)
-4) Section headings and bullets build a narrative flow that is compatibile with your main research argument. (REVIEW by team)
+# Research Paper Outline  
+## >>> [Research Paper Outline](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/PaperOutline.md) <<<   
+
    
 # Visuals and Diagrams  
 ## Survey Results  
@@ -45,20 +41,12 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 ## Defcon Problem VIsualization
 > ![Defcon1](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/5ad9e0de00104a7072778d3277cd49d48a51c6aa/M2Docs/Diagrams/IntraIndustryDiagram.png)
 > ![Defcon2](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/5ad9e0de00104a7072778d3277cd49d48a51c6aa/M2Docs/Diagrams/DistributionDiagram.png)
+## Supply Chain Interface and Results
+> ![Interface](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/9d59eaa2a185c4a55f64270e1663c9b533c66a05/M2Docs/Diagrams/JBS%20Model%20UI%20Interface.png)
+> ![Results](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/9d59eaa2a185c4a55f64270e1663c9b533c66a05/M2Docs/Diagrams/JBS%20Model%20Graphs.png)
 
 # Issue Tracking and Planning (Submission captured by GitHub activity)  
 
-# Presentation  - Ryan 
+# Presentation
 ## Slides submitted on canvas - Also need a recorded version submitted. Pre-recorded, no class presentation
-### Include  
-1) conveying a sense of interest and excitement about your project  
-2) cool product demos, and  
-3) interesting intermediate findings of conducting your projects.
-> #### Ruberic
-> - [x] Team presents information in a logical, interesting sequence which the audience can easily follow.
-> - [x] Team overviews relevant elements of the project (including goals, findings, outcomes, etc) succinctly, while using time well to focus on the most important and salient project outcomes.
-> - [x] Thorough understanding and grasp of the project is demonstrable. Students answer all questions with explanations and elaboration as appropriate.
-> - [x] Slides have few or no misspellings, grammatical errors, or unprofessional content. No inappropriate memes or things of this nature are present.
-> - [x] Team maintains good presentational flow between team members.
-> - [x] The team covers the relevant content developed in the milestone.
-> - [x] The presentation makes appropriate use of graphics in support of the major points. There are no large blocks of text or unwieldy slides.
+# Include copy of presentation powerpoint here
