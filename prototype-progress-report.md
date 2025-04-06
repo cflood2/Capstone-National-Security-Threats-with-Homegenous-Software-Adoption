@@ -1,7 +1,6 @@
-**Project Overview:**
+## **Project Overview:**
 
-**The purpose of this report is to provide the status of all tasks
-throughout the project lifecycle. The report includes the following:**
+### **The purpose of this report is to provide the status of all tasks throughout the project lifecycle. The report includes the following:**  
 
 - **Project Overview**
 
@@ -22,7 +21,7 @@ first task was the initial kickoff meeting to brainstorm and discuss
 tasks which will need to be accomplished for the NetLogo prototype
 deliverable.**
 
-**Outcome I:**
+### **Outcome I:**
 
 **Researched Scholarly and academic literature reviews relating to
 project**
@@ -32,7 +31,7 @@ project**
 - **Conducted a data analysis associated with vulnerabilities which
   could be useful to the project**
 
-**Outcome II:**
+### **Outcome II:**
 
 **A member on the team conducted research to develop a survey on the
 types of software organizations would implement in their environment.**
@@ -47,7 +46,7 @@ types of software organizations would implement in their environment.**
   - **The data captured was used for the NetLogo modeler which was
     considered a milestone achievement**
 
-**Project Issues and Challenges:**
+### **Project Issues and Challenges:**
 
 - **Challenge: Availability of project personnel (work, personnel
   issues, test environment, etc.**
@@ -96,7 +95,7 @@ types of software organizations would implement in their environment.**
 - **Solution: Will work together as a team to provide inputs and help
   build the project outline**
 
-**Ongoing Risks:**
+### **Ongoing Risks:**
 
 - **Project Scope Creep: Some assigned tasks currently have been moved
   to the left**
@@ -118,7 +117,7 @@ types of software organizations would implement in their environment.**
 
     - **This weather event produced widespread power outages**
 
-**Milestone II Key Accomplishments:**
+### **Milestone II Key Accomplishments:**
 
 - **Researched Case Congressional Report for JBS Foods**
 
@@ -141,10 +140,9 @@ first task was the initial kickoff meeting. The purpose of the meeting
 was to brainstorm and discuss tasks which will need to be accomplished
 for NetLogo prototype deliverable.**
 
-**Project Key Deliverables:**
+## **Project Key Deliverables:**  
 
-**Project key deliverables associated with each task assigned and status
-updates:**
+### **Project key deliverables associated with each task assigned and status updates:**  
 
 | **Name:**                                      | **Description**                                                                                      | **Start Date:** | **End Date:** | **Status:**   |
 |------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------|---------------|---------------|
@@ -184,7 +182,7 @@ updates:**
 | **Ryan Thompson**                              | **Milestone II Presentation**                                                                        | **4/6/2025**    | **4/6/2025**  | **Completed** |
 | **Cummings/Thompson/Flood/Brian Gilbert**      | **Milestone II Team Meeting/Discussions included status updates to the project**                     | **3/31/2025**   | **3/31/2025** | **Completed** |
 
-**Summary:**
+## **Summary:**
 
 **This progress report covers our team\'s accomplishments during
 Milestone II. Our key accomplishments included conducted several
