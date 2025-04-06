@@ -48,5 +48,5 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 # Issue Tracking and Planning (Submission captured by GitHub activity)  
 
 # Presentation
-## Slides submitted on canvas - Also need a recorded version submitted. Pre-recorded, no class presentation
+
 # Include copy of presentation powerpoint here
