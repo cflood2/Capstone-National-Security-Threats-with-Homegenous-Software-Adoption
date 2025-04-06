@@ -42,6 +42,10 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 ## Defcon Problem VIsualization
 > ![Defcon1](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/5ad9e0de00104a7072778d3277cd49d48a51c6aa/M2Docs/Diagrams/IntraIndustryDiagram.png)
 > ![Defcon2](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/5ad9e0de00104a7072778d3277cd49d48a51c6aa/M2Docs/Diagrams/DistributionDiagram.png)
+## Network Model and Results
+> ![Interface](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Network%20Full%20model.png)
+> ![Results-Crowdstrike](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Network%20model-%20Crowdstrike.png)
+> ![Results-Fixes implemented](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Network%20model-%20faster.png)
 ## Supply Chain Interface and Results
 > ![Interface](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/9d59eaa2a185c4a55f64270e1663c9b533c66a05/M2Docs/Diagrams/JBS%20Model%20UI%20Interface.png)
 > ![Results](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/9d59eaa2a185c4a55f64270e1663c9b533c66a05/M2Docs/Diagrams/JBS%20Model%20Graphs.png)
