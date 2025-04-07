@@ -49,7 +49,7 @@ types of software organizations would implement in their environment.**
 ### **Project Issues and Challenges:**
 
 - **Challenge: Availability of project personnel (work, personnel
-  issues, test environment, etc.**
+  issues, test environment, etc.)**
 
 - **Solution: Team was able to meet outside of meeting to discuss tasks
   and milestone updates**
