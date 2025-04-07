@@ -2,12 +2,12 @@
 
 For our modeling we used a program called NetLogo. NetLogo is a programmable modeling environment used for simulating natural and social phenomena. NetLogo is agent-based, meaning it allows users to create and simulate the actions of individual "agents" (like animals, people, or vehicles) in a system to observe how complex behaviors emerge from simple rules.
 
-NetLogo is free and supported by Northwestern University. It is available for Windows, Mac, and Linux and is as simple as requesting to downlaod the installer, then running it. After that, an exising model can be imported and modificatiosn amde, or users can start from scratch. NetLogo models are written in a language called Scala.
+NetLogo is free and supported by Northwestern University. It is available for Windows, Mac, and Linux and is as simple as requesting to download the installer, then running it. After that, an existing model can be imported and modifications made, or users can start from scratch. NetLogo models are written in a language called Scala.
 
 ## Network Model
-### Network Model varaibles and parameters
-**User-Nodes:** The number of nodes that represent the number of user within a network.     
-**Crowdstrike-connections:** The number of node connections to the crowdstrike node. For the outage a large number of connections is used.      
+### Network Model variables and parameters
+**User-Nodes:** The number of nodes that represent the number of users within a network.     
+**CrowdStrike-connections:** The number of node connections to the CrowdStrike node. For the outage a large number of connections is used.      
 **Average-node-connection:** The average number of times each node is connected to another node.     
 **bad-update-spread:** This represents the chance that the update was pushed to a connected node.     
 **update-fix-chance:** Represents the chance the node is fixed.     
@@ -39,7 +39,7 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 > ![MarketShare](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart1.png?raw=true)
 > ![MarketShare2](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart2.png)  
 > ![MarketShare3](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M2Docs/Diagrams/Chart3.png)
-## Defcon Problem VIsualization
+## Defcon Problem Visualization
 > ![Defcon1](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/5ad9e0de00104a7072778d3277cd49d48a51c6aa/M2Docs/Diagrams/IntraIndustryDiagram.png)
 > ![Defcon2](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/5ad9e0de00104a7072778d3277cd49d48a51c6aa/M2Docs/Diagrams/DistributionDiagram.png)
 ## Network Model and Results
