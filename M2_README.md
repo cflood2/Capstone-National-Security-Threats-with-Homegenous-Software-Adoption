@@ -54,4 +54,4 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 
 # Presentation
 
-# Include copy of presentation powerpoint here
+## >>> ![M2 Presentation](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/07d0c3a2ec6b075399a3ad4001ab361235c895d0/M2Docs/M2%20Presentation.pptx) <<<
