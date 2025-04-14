@@ -45,6 +45,13 @@
 
 # Research paper - https://unomail-my.sharepoint.com/:w:/g/personal/rjthompson_unomaha_edu/ER2PkC9sADJMsRP6W_FtIA0BS-Facl70O0JMd5pme32FIQ?e=rrEuYW
 ## Requirments
+> SECTION ASSIGNMENTS  
+>  Abstract - Sheryl  
+>  Introbuction/Background - Sheryl  
+>  Methodology - Brian/Connor/Ryan respective parts  
+>  Conclusion/Results - Team (Probaby mostly Ryan)  
+ 
+
 - [ ] ACM format
 - [ ] Abstract > Introduction > Background (your sections go here) e.g. Methodology > Results > Conclusion
 - [ ] Group member contributions
