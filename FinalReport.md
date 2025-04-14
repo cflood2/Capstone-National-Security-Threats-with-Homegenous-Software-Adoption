@@ -9,6 +9,7 @@
 - [ ] Polish your product by squashing as many bugs as possible and cleaning up the user interface.
 - [ ] Package your code and/or deployment environment for release using relevant deployment solutions
 - [ ] Create installation and getting started instructions using markdown in their repository or documentation to detail what an end-user must do to setup their app or product.
+- [ ] Close all open cards/issues/projects
 
 
 ## Result/Finding Expectations
