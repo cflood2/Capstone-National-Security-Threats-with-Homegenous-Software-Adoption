@@ -43,7 +43,7 @@
 - [ ] Team maintains eye contact with the audience, seldom or never returning to notes, and maintains good presentational flow between team members.
 - [ ] Presentation in person, slides submitted on canvas
 
-# Research paper
+# Research paper - https://unomail-my.sharepoint.com/:w:/g/personal/rjthompson_unomaha_edu/ER2PkC9sADJMsRP6W_FtIA0BS-Facl70O0JMd5pme32FIQ?e=rrEuYW
 ## Requirments
 - [ ] ACM format
 - [ ] Abstract > Introduction > Background (your sections go here) e.g. Methodology > Results > Conclusion
