@@ -47,7 +47,7 @@
 ## Requirments
 > SECTION ASSIGNMENTS  
 >  Abstract - Sheryl  
->  Introbuction/Background - Sheryl  
+>  Introbuction/Background - Sheryl/Ryan  
 >  Methodology - Brian/Connor/Ryan respective parts  
 >  Conclusion/Results - Team (Probaby mostly Ryan)  
  
