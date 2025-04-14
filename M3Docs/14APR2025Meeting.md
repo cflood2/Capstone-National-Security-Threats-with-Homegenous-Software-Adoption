@@ -5,4 +5,5 @@ Questions for Hale:
       ANS:  
   3.) Documentation, instructions, test plan, etc. in a zip file?  
       ANS:  
-  4.) 
+  4.) CCS concepts?  
+      ANS:  
