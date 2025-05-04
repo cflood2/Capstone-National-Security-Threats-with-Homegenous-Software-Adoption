@@ -29,7 +29,7 @@
 
 # Presentation
 ## Should Cover
-- [ ] High level goals, initial scope, and adjustment to scope (keep it succinct)
+- [x] High level goals, initial scope, and adjustment to scope (keep it succinct)
 - [ ] Project methodology followed over the project
 - [ ] Principle Project findings and outcomes
 - [ ] Demos of any relevant tooling / code / attacks / etc that resulted from the work and/or findings
@@ -53,8 +53,8 @@
 >  Conclusion/Results - Team (Probaby mostly Ryan)  
  
 
-- [ ] ACM format
-- [ ] Abstract > Introduction > Background (your sections go here) e.g. Methodology > Results > Conclusion
+- [x] ACM format
+- [x] Abstract > Introduction > Background (your sections go here) e.g. Methodology > Results > Conclusion
 - [ ] Group member contributions
 - [ ] Submitted as word doc to Hale
 ## Ruberic
