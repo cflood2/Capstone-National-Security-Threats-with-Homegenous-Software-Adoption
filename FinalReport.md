@@ -8,19 +8,76 @@
 &nbsp; This paper will analyze past incidents and analogous examples to support the development of a NIST (National Institute of Standards and Technology) CSWP (Cybersecurity White Paper.) Additionally, this paper will propose amendments to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for consideration by the USFG (United States Federal Government.)
 
 ## **Project Goals:** (high level project goals, reuse from milestone 1, update if scope changed)  
-- Create guidelines for software adoption to add to existing policy  
-- Create guidelines for the USFG to consider in M&A filings  
-- Create guidelines for DoD (Department of Defense) when contractors attempt to consolidate  
-- Propose addendums to existing anti-trust acts  
+- Create two agent based models using Netlogo
+    1. Network Attack ​
+    2. Effects of outage on Supply Chain​
+- Survey of IT and non-IT decision makers​
+- Analyze case studies of Crowd Strike and JBS​ cyber incidents
 
 ## **Project Methodology:** (specific methodology followed in the project, reuse from milestone 1/2, update if scope changed)  
+For our modeling we used a program called NetLogo. NetLogo is a programmable modeling environment used for simulating natural and social phenomena. NetLogo is agent-based, meaning it allows users to create and simulate the actions of individual "agents" (like animals, people, or vehicles) in a system to observe how complex behaviors emerge from simple rules.
 
+NetLogo is free and supported by Northwestern University. It is available for Windows, Mac, and Linux and is as simple as requesting to download the installer, then running it. After that, an existing model can be imported and modifications made, or users can start from scratch. NetLogo models are written in a language called Scala.
+
+## Network Model
+### Network Model variables and parameters
+**User-Nodes:** The number of nodes that represent the number of users within a network.     
+**CrowdStrike-connections:** The number of node connections to the CrowdStrike node. For the outage a large number of connections is used.      
+**Average-node-connection:** The average number of times each node is connected to another node.     
+**bad-update-spread:** This represents the chance that the update was pushed to a connected node.     
+**update-fix-chance:** Represents the chance the node is fixed.     
+**recovery-delay:** This mimics the amount of time it takes for the fix to be implemented.      
+
+## Supply Chain Model
+### Below is a detailed explanation of each parameter in the Supply Chain Model  
+**Initial Conditions:** ​Each firm starts at full production capacity, 14 days of meat supply in the system, and has a food security index of 100 (best case).  
+**Shock Scenarios:** Mild – A small-scale attack with 10% production loss and a 5 tick recovery.​     
+   **Recovery** – A moderate attack with 30% production loss, 20 tick recovery, but has industry support for recovery. ​    
+   **Severe** – A major cyberattack with 50% production loss and a 30 tick recovery time.     
+**Key Parameters:** Shock duration: Number of ticks that the initial "shock" lasts. (0-30)The greater the duration, the greater the disruption (0-30)​    
+**Shock percentage:** Production reduction during shock (10-70%).  It represents the total immediate production reduction.​    
+**Recovery rate:** Speed at which the affected firms recover (1-50%) per tick. ​    
+**Cascading effects:** The rate at which disruptions spread to other firms (0 – 100%) The higher values mean the supply chain is affected more. ​    
+**Price elasticity:** How prices respond to changes in supply. (.5-3.0) The higher values create more dramatic price hikes. ​    
+**Shock-start time:** This is the tick number when disruption begins. It allows for observing baseline values before a shock happens. ​    
+**National security threshold:** The risk level that simulates national security concerns (0-100). The higher the value, the more sensitive the model will report national security risks. The lower threshold means that the model will only report national security risks only in severe situations.   
+
+## Survey of Professtionals
+  - Problem was presented to local DEFCON meeting of ~40 local professionals
+  - Survey sent to other business social groups
+
+## Analysis of Case Studies
+  - A case study of the JBS attack in May of 2021 was used as evidence to support claims made in the executive summary
+  - A case study of hte CrowdStrike incident of 2024 was used as evidence to support claims made in the executive summary
 
 ## **Results / Findings:** (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)  
 
 (bulleted lists can also be helpful to structure your results discussion)
-* outcome 1
-* outcome 2
+## M1  
+### Findings of Lit Review
+## M2  
+### Results of Survey (25 respondants)  
+  -  When asked whether market share influences software adoption, 50% of respondents answered yes, while 50% answered no.  
+  -  When evaluating widespread adoption, 16% viewed it as extremely positive, 40% somewhat positive, and 44% neutral. None saw it as negative.  
+  -  Regarding perceived risk, 4% saw high risk, 43% medium, 44% low, and 8% near zero.  
+  -  Most respondents did not associate widespread adoption with higher risk, reinforcing the belief that market dominance suggests reliability, soundness, or superiority in the most generic sense.  
+### Findings of Case Studies  
+#### JBS Attack  
+  - REvil monetized access to victim networks and sold that access to other REvil affiliates.​  
+  - Before encrypting victim organization networks, REvil used double extortion methods to first steal sensitive data from victims and then publish that data on REvil’s public blog.​  
+  - REvil harassed victim company employees via email and telephone to coerce the companies into paying ransoms​  
+  - USDA instructed competitors to increase output​  
+  - JBS was dark for a full day and incrementally came back over three days  
+#### CrowdStrike Incident  
+  - Systems administrator at CrowdStrike caused the largest IT outage in American history​  
+  - System administrator  performed a windows  update which was neither validated, verified or followed the change management approval process​  
+  - There was a security flaw discover in the Falcon sensor version 7.11 and above which caused the system to crash​  
+  - Billions of dollars in lost productivity and chaos  
+## M3  
+### Findings of Netowrk Model
+### Findings of Supply Chain Model
+### Summary of findings/implications
+
 
 ## Install Instructions (if applicable) 
 ### Requirements
