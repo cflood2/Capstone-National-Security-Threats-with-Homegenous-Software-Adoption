@@ -17,9 +17,38 @@
 - [ ] Summarize findings as they relate to the original proposal in milestone 1. What worked, what didn't work? Where would future work be most useful?
 - [ ] The report should arrange documentation generated over the project timeline in a logical way that supports the summary. Think of the final report as a compilation of all of your work over the semester.
 
-## Suggested Format for Final Report  -  See Milestone 3 reqs
-- [ ] Submitted as .md file called FinalReport.md
 
+
+## Suggested Format for Final Report >> Below
+- [ ] Submitted as .md file called FinalReport.md
+```
+# Project name
+## Executive Summary
+(overview of project, reuse from milestone 1, update if scope changed)
+
+## Project Goals
+(high level project goals, reuse from milestone 1, update if scope changed)
+
+## Project Methodology
+(specific methodology followed in the project, reuse from milestone 1/2, update if scope changed)
+
+## Results / Findings
+(brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)
+
+(bulleted lists can also be helpful to structure your results discussion)
+* outcome 1
+* outcome 2
+
+## Install Instructions (if applicable)
+### Requirements
+(list of any software / hardware requirements necessary to run the code/app/etc)
+
+### Installation Instructions
+(list of steps to install the product/app/code/etc)
+
+### Getting started
+(list of any steps to run the code after installation and/or manage the apps over their lifecycle)
+```
 ## Ruberic
 - [ ] Team has made clear and sufficient effort commensurate with project scope over the life of the capstone project. Findings demonstrates polish and significant effort.
 - [ ] The results/product/app/etc is packaged and ready to be shipped to the customer as appropriate (i.e. results are documented well, products/apps are in a deployable / packaged state.
