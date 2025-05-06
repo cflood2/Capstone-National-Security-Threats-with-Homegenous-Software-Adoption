@@ -54,7 +54,13 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 
 (bulleted lists can also be helpful to structure your results discussion)
 ## M1  
+  - Original scope was too large i.e. trying to affect current policy is not achevable within the given time range
+  - Scope was adjsuted to create evidence using modeling, surveys and analysis of existing case studies
+  - This evidence would be used to support our thesis and, as far as we can tell, be on eof the first papers on the subjectm as it relates to modern cyber risks
 ### Findings of Lit Review
+  - Research on this specific sybject is nearly non-existant  
+  - Some references to risks of consolidation within the defense industry were addressed by military organizations, including preventing mergers that would create too large of a single point of failure in say, ammunition production  
+  - 
 ## M2  
 ### Results of Survey (25 respondants)  
   -  When asked whether market share influences software adoption, 50% of respondents answered yes, while 50% answered no.  
