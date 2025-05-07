@@ -84,7 +84,7 @@
 
 - [x] ACM format
 - [x] Abstract > Introduction > Background (your sections go here) e.g. Methodology > Results > Conclusion
-- [ ] Group member contributions (what does he mean by that)
+- [x] Group member contributions (what does he mean by that)
 - [ ] Submitted as word doc to Hale
 ## Ruberic
 - [ ] Does the abstract succinctly summarize the work? Does it state the high level problem and address how the work contributes to solving the problem? ( solve problem)  
