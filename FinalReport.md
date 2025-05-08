@@ -1,6 +1,6 @@
 # Cyber Risks of Critcal Infastructure Consolidation and Homogeneous Software Adoption: Modern Nuance of Modern Warfare
 
-## **Executive Summary:** (overview of project, reuse from milestone 1, update if scope changed)  
+## **Executive Summary** (overview of project, reuse from milestone 1, update if scope changed)  
 &nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is exacerbated when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper aims to develop policy recommendations to address cybersecurity risks associated with industry consolidation. For example, disruptions to food suppliers could lead to widespread food insecurity. If Big Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would create starvation conditions for large populations. 
 <br/>  
 &nbsp; The risks to national security and societal stability are evident. It is crucial for the Federal Trade Commission to consider these cybersecurity threats when evaluating mergers and acquisitions (M&A) between large companies and for companies to incorporate these risks into their decision-making process.
@@ -14,7 +14,7 @@
 - Survey of IT and non-IT decision makers​
 - Analyze case studies of Crowd Strike and JBS​ cyber incidents
 
-## **Project Methodology:** (specific methodology followed in the project, reuse from milestone 1/2, update if scope changed)  
+## **Project Methodology**
 For our modeling we used a program called NetLogo. NetLogo is a programmable modeling environment used for simulating natural and social phenomena. NetLogo is agent-based, meaning it allows users to create and simulate the actions of individual "agents" (like animals, people, or vehicles) in a system to observe how complex behaviors emerge from simple rules.
 
 NetLogo is free and supported by Northwestern University. It is available for Windows, Mac, and Linux and is as simple as requesting to download the installer, then running it. After that, an existing model can be imported and modifications made, or users can start from scratch. NetLogo models are written in a language called Scala.
@@ -56,7 +56,7 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
   - A case study of the JBS attack in May of 2021 was used as evidence to support claims made in the executive summary
   - A case study of the CrowdStrike incident of 2024 was used as evidence to support claims made in the executive summary
 
-## **Results / Findings:** (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)  
+## **Results / Findings** (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)  
 
 ## M1  
   - Original scope was too large i.e. trying to affect current policy is not achevable within the given time range
