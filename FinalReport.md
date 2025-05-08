@@ -1,6 +1,6 @@
 # Cyber Risks of Critcal Infastructure Consolidation and Homogeneous Software Adoption: Modern Nuance of Modern Warfare
 
-## **Executive Summary** (overview of project, reuse from milestone 1, update if scope changed)  
+## **Executive Summary**
 &nbsp; Modern infrastructure enables adversaries to disrupt organizations with cyber attacks. This problem is exacerbated when a single company dominates specific industries or services, such as banking, healthcare, or food production. This paper aims to develop policy recommendations to address cybersecurity risks associated with industry consolidation. For example, disruptions to food suppliers could lead to widespread food insecurity. If Big Poultry Corporation produces 75% of domestic poultry products, a cyber attack targeting them would create starvation conditions for large populations. 
 <br/>  
 &nbsp; The risks to national security and societal stability are evident. It is crucial for the Federal Trade Commission to consider these cybersecurity threats when evaluating mergers and acquisitions (M&A) between large companies and for companies to incorporate these risks into their decision-making process.
@@ -97,13 +97,3 @@ The most detailed report of our outcomes for each milestone can be found [Here](
 
 **For Milestone III, our team focused on completing the necessary steps in the last phase of the project. These steps will include deliverables such as testing and validation, user instruction documentation and technical documentation. All other key deliverables, such as the graduate research paper and other documentation will be included in the overall package as the final project deliverables.**
 **During the last several weeks, our team encountered several issues and challenges in completing the final phase of the project. These issues and challenges include availability of personnel, inclement weather to include loss of power, learning curves related to the project and finalizing the research paper. The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and resolutions to assigned tasks for the milestone III deliverable.**
-
-## Install Instructions (if applicable) 
-### Requirements
-(list of any software / hardware requirements necessary to run the code/app/etc)
-
-### Installation Instructions
-(list of steps to install the product/app/code/etc)
-
-### Getting started
-(list of any steps to run the code after installation and/or manage the apps over their lifecycle)
