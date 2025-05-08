@@ -5,7 +5,7 @@
 <br/>  
 &nbsp; The risks to national security and societal stability are evident. It is crucial for the Federal Trade Commission to consider these cybersecurity threats when evaluating mergers and acquisitions (M&A) between large companies and for companies to incorporate these risks into their decision-making process.
 <br/>  
-&nbsp; This paper will analyze past incidents and analogous examples to support the development of a NIST (National Institute of Standards and Technology) CSWP (Cybersecurity White Paper.) Additionally, this paper will propose amendments to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for consideration by the USFG (United States Federal Government.)
+
 
 ## **Project Goals** 
 - Create two agent based models using Netlogo
