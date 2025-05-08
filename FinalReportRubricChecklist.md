@@ -2,7 +2,7 @@
 ## Rubric
  - [x] It is clear that the team has made non-trivial effort and progress towards project realization.  
  - [x] Code artifacts and tasks are documented well. Documentation is clear and illustrative.
- - [ ] Submited as .md file called milestone-3-progress-report.md
+ - [x] Submited as .md file called milestone-3-progress-report.md
 
 # Final Report: Packaging and Release
 ## Expectations
@@ -20,7 +20,7 @@
 
 
 ## Suggested Format for Final Report >> Below
-- [ ] Submitted as .md file called FinalReport.md
+- [x] Submitted as .md file called FinalReport.md
 ```
 # Project name
 ## Executive Summary
