@@ -82,12 +82,19 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
   - Systems administrator at CrowdStrike caused the largest IT outage in American history​  
   - System administrator  performed a windows  update which was neither validated, verified or followed the change management approval process​  
   - There was a security flaw discover in the Falcon sensor version 7.11 and above which caused the system to crash​  
-  - Billions of dollars in lost productivity and chaos  
+  - Billions of dollars in lost productivity and chaos
+
+**For Milestone II, a key accomplishment for the team included developing a survey to use to build out metrics for the NetLogo model. Conducting the survey helped the team understand which variables we could use for our NetLogo data model.**
+**We also encountered several issues and challenges associated with our project. For example, some of the issues we encountered included availability of personnel, loss of power and understanding the data to generate different scenarios for data modeling.**
+**The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and assigned tasks for the milestone II deliverable.**
+
 ## M3  
 ### Findings of Netowrk Model
 ### Findings of Supply Chain Model
 ### Summary of findings/implications
 
+**For Milestone III, our team focused on completing the necessary steps in the last phase of the project. These steps will include deliverables such as testing and validation, user instruction documentation and technical documentation. All other key deliverables, such as the graduate research paper and other documentation will be included in the overall package as the final project deliverables.**
+**During the last several weeks, our team encountered several issues and challenges in completing the final phase of the project. These issues and challenges include availability of personnel, inclement weather to include loss of power, learning curves related to the project and finalizing the research paper. The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and resolutions to assigned tasks for the milestone III deliverable.**
 
 ## Install Instructions (if applicable) 
 ### Requirements
