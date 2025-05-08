@@ -56,7 +56,9 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
   - A case study of the JBS attack in May of 2021 was used as evidence to support claims made in the executive summary
   - A case study of the CrowdStrike incident of 2024 was used as evidence to support claims made in the executive summary
 
-## **Results / Findings** (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)  
+## **Results / Findings** (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings) 
+
+The most detailed report of our outcomes for each milestone can be found [Here](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/e4274e5c2dccfe45964d6970b462adf5c2c5d7d5/M3Docs/PrioritizationReport.md)
 
 ## M1  
   - Original scope was too large i.e. trying to affect current policy is not achevable within the given time range
