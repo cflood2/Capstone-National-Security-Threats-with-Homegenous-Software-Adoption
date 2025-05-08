@@ -45,14 +45,19 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 ## Survey of Professtionals
   - Problem was presented to local DEFCON meeting of ~40 local professionals
   - Survey sent to other business social groups
+  - In total survey was sent to ~100 individuals
+  - 26 responded and 1 respondant was tossed out, leaving 25 total responses
+  - The Following three were deemed most relevent to our final report
+      - When asked whether market share influences software adoption, 50% of respondents answered yes, while 50% answered no.
+      - When evaluating widespread adoption, 16% viewed it as extremely positive, 40% somewhat positive, and 44% neutral. None saw it as negative.
+      - Regarding perceived risk, 4% saw a high risk, 43% medium, 44% low, and 8% near zero.
 
 ## Analysis of Case Studies
   - A case study of the JBS attack in May of 2021 was used as evidence to support claims made in the executive summary
-  - A case study of hte CrowdStrike incident of 2024 was used as evidence to support claims made in the executive summary
+  - A case study of the CrowdStrike incident of 2024 was used as evidence to support claims made in the executive summary
 
 ## **Results / Findings:** (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)  
 
-(bulleted lists can also be helpful to structure your results discussion)
 ## M1  
   - Original scope was too large i.e. trying to affect current policy is not achevable within the given time range
   - Scope was adjsuted to create evidence using modeling, surveys and analysis of existing case studies
@@ -60,7 +65,6 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 ### Findings of Lit Review
   - Research on this specific sybject is nearly non-existant  
   - Some references to risks of consolidation within the defense industry were addressed by military organizations, including preventing mergers that would create too large of a single point of failure in say, ammunition production  
-  - 
 ## M2  
 ### Results of Survey (25 respondants)  
   -  When asked whether market share influences software adoption, 50% of respondents answered yes, while 50% answered no.  
