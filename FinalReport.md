@@ -7,7 +7,7 @@
 <br/>  
 &nbsp; This paper will analyze past incidents and analogous examples to support the development of a NIST (National Institute of Standards and Technology) CSWP (Cybersecurity White Paper.) Additionally, this paper will propose amendments to the Sherman Act, the Federal Trade Commission Act, or Clayton Act for consideration by the USFG (United States Federal Government.)
 
-## **Project Goals:** 
+## **Project Goals** 
 - Create two agent based models using Netlogo
     1. Network Attack ​
     2. Effects of outage on Supply Chain​
