@@ -24,11 +24,18 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 **Step 1--- Network Construction**
 **Setup: Button** Resets the Network construction with 2 nodes. 1 blue node and 1 red node to represent where the vulnerability begins.
 **go: Button** Initiates the creation of nodes that randomly connect to existing nodes in the network. Pressing the button again will pause the node creation process. Generating between 200 and 400 nodes typically results in an ideal visualization of network structure and connectivity. 
+**# of nodes: Counter** Shows the number of nodes that are created.
+**redo layout: Button** This button repositions the nodes to improve the visual clarity and organization of the network structure. Press the button again to pause the repositioning of the nodes. 
+**resize nodes: Button** Adjusts the size of each node based on its number of connections. The more connections the bigger the node will be.  
+
+**Step 2--- Bad Update Propagation**
+**bad-update-percent: slider** This will be percent of connections that will receive the update/vulnerability that are connected to the inial red node.
+**Initial Update Push: Button**  This will push the update/vulnerabilty to the immediate nodes that are connected to the inital red node. The nodes are turned red and chosen at random based on the percent from the bad-update-percent slider. The inital red node that pushed the update/vulnerability will also change to a triangle to represent show where the inital vulnerbility began.
 **# of nodes:** Shows the number of nodes that are created.
 **redo layout: Button** This button repositions the nodes to improve the visual clarity and organization of the network structure. Press the button again to pause the repositioning of the nodes. 
-**resize nodes: Button** Adjusts the size of each node based on its number of connections. The more connections the bigger the node will be.     
-**3:** Represents the chance the node is fixed.     
-**recovery-delay:** This mimics the amount of time it takes for the fix to be implemented.      
+**resize nodes: Button** Adjusts the size of each node based on its number of connections. The more connections the bigger the node will be.  
+    
+      
 
 ## Supply Chain Model
 ### Below is a detailed explanation of each parameter in the Supply Chain Model  
