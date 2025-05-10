@@ -7,8 +7,8 @@
 # Final Report: Packaging and Release
 ## Expectations
 - [x] Polish your product by squashing as many bugs as possible and cleaning up the user interface.
-- [ ] Package your code and/or deployment environment for release using relevant deployment solutions (SEPERATE GITHUB)
-- [ ] Create installation and getting started instructions using markdown in their repository or documentation to detail what an end-user must do to setup their app or product. (brian and connor this week)
+- [x] Package your code and/or deployment environment for release using relevant deployment solutions (SEPERATE GITHUB)
+- [x] Create installation and getting started instructions using markdown in their repository or documentation to detail what an end-user must do to setup their app or product. (brian and connor this week)
 - [x] Close all open cards/issues/projects
 
 
@@ -53,8 +53,8 @@
 - [x] Team has made clear and sufficient effort commensurate with project scope over the life of the capstone project. Findings demonstrates polish and significant effort.
 - [x] The results/product/app/etc is packaged and ready to be shipped to the customer as appropriate (i.e. results are documented well, products/apps are in a deployable / packaged state.
 - [x] Documentation is consistent and accurate. Assumptions are stated appropriately and/or getting started/installation instructions work as stated without issue. Findings are replicable given the available documentation in the report.
-- [ ] Findings from project activities have been summarized at a high level and are presented in a format that is easy to read and understand (e.g. tabular). Diagrams and visual aids are used effectively where needed. Findings demonstrate sufficient work product given the scope of the project. (add graphs pictures to findings)
-- [ ] The team prepares an overall report from existing documentation generated during the project. The report includes the assessment and finding summaries and connects the findings to existing documentation in the project repository. The final report is comprehensive.
+- [x] Findings from project activities have been summarized at a high level and are presented in a format that is easy to read and understand (e.g. tabular). Diagrams and visual aids are used effectively where needed. Findings demonstrate sufficient work product given the scope of the project. (add graphs pictures to findings)
+- [x] The team prepares an overall report from existing documentation generated during the project. The report includes the assessment and finding summaries and connects the findings to existing documentation in the project repository. The final report is comprehensive.
 
 # Presentation
 ## Should Cover
