@@ -91,7 +91,7 @@ The most detailed report of our outcomes for each milestone can be found [Here](
 **The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and assigned tasks for the milestone II deliverable.**
 
 ## M3  
-### Findings of Netowrk Model
+### Findings of Network Model
 ### Findings of Supply Chain Model
 ### Summary of Findings/Implications
 
