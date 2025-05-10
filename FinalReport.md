@@ -97,3 +97,6 @@ The most detailed report of our outcomes for each milestone can be found [Here](
 
 **For Milestone III, our team focused on completing the necessary steps in the last phase of the project. These steps will include deliverables such as testing and validation, user instruction documentation and technical documentation. All other key deliverables, such as the graduate research paper and other documentation will be included in the overall package as the final project deliverables.**
 **During the last several weeks, our team encountered several issues and challenges in completing the final phase of the project. These issues and challenges include availability of personnel, inclement weather to include loss of power, learning curves related to the project and finalizing the research paper. The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and resolutions to assigned tasks for the milestone III deliverable.**
+
+## Install and Release
+### Due to objections from team memebr(s), no release version or informatrion will be provided.
