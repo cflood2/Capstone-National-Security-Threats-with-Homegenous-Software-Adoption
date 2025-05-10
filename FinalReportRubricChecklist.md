@@ -13,8 +13,8 @@
 
 
 ## Result/Finding Expectations
-- [ ] Summarize your results discovered over the life of the project.
-- [ ] Summarize findings as they relate to the original proposal in milestone 1. What worked, what didn't work? Where would future work be most useful?
+- [x] Summarize your results discovered over the life of the project.
+- [x] Summarize findings as they relate to the original proposal in milestone 1. What worked, what didn't work? Where would future work be most useful?
 - [x] The report should arrange documentation generated over the project timeline in a logical way that supports the summary. Think of the final report as a compilation of all of your work over the semester.
 
 
