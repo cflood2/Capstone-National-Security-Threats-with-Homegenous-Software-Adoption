@@ -33,10 +33,13 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 **Initial Update Push: Button**  This will push the update/vulnerabilty to the immediate nodes that are connected to the inital red node. The nodes are turned red and chosen at random based on the percent from the bad-update-percent slider. The inital red node that pushed the update/vulnerability will also change to a triangle to represent show where the inital vulnerbility began.
 **Subsequent Update spread: Button** This button will push the update/vulnerability to all subsequent nodes that are connected to the nodes that were chosen from the Initial Update Push, turning the nodes red. Push the Subsequent Update spread button to sopt it before continuing the model. The blue node connections that did not receive the Inital Update Push will not be affected by the Subsequent Update spread and remail blue.
 
-**Step 3--- Bad Update Propagation**
-**bad-update-percent: slider** This will be percent of connections that will receive the update/vulnerability that are connected to the inial red node.
-**Initial Update Push: Button**  This will push the update/vulnerabilty to the immediate nodes that are connected to the inital red node. The nodes are turned red and chosen at random based on the percent from the bad-update-percent slider. The inital red node that pushed the update/vulnerability will also change to a triangle to represent show where the inital vulnerbility began.
-**Subsequent Update spread: Button** This button will push the update/vulnerability to all subsequent nodes that are connected to the nodes that were chosen from the Initial Update Push, turning the nodes red. Push the Subsequent Update spread button to sopt it before continuing the model. The blue node connections that did not receive the Inital Update Push will not be affected by the Subsequent Update spread and remail blue.
+**Step 3--- Deployment of the Update Fix**
+**Note** Ensure that the Step 1 buttons (Go and Redo Layout) and the Step 2 button (Subsequent Update Spread) are stopped before proceeding. This ensures the graph accurately reflects only the actions taken during Step 3. 
+**update-fix-setup: Button** This Initializes the network for the fix deployment phase by identifying and preparing the nodes that will begin spreading the update. It is represented by turning the inital node from red triangle to a green triangle.
+**Update-fix-chance: Slider**  This represents the rate a node will sucessfully transmit the fix to the connected nodes during each tick of the recovery phase turning the nodes green. 
+**update-delay: Slider** Specifies the number of ticks to delay the initiation of the fix deployment, representing the time required to identify the vulnerability and begin recovery efforts.
+**update-fix-go: Button** Starts the propagation of the fix turning the nodes green across the network based on the configured delay and update chance. It simulates the recovery process from the vulnerability. The update will start at the Green Triangle Node and propagate only to the red nodes until all red nodes are turned green. 
+**Node Status Over Time: Graph** The graph displays the progression of node states throughout the simulation, tracking the number of vulnerable (red), and recovered (green) nodes over time in ticks.
 
     
       
