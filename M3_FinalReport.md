@@ -17,9 +17,7 @@
 ## **Project Methodology**
 For our modeling we used a program called NetLogo. NetLogo is a programmable modeling environment used for simulating natural and social phenomena. NetLogo is agent-based, meaning it allows users to create and simulate the actions of individual "agents" (like animals, people, or vehicles) in a system to observe how complex behaviors emerge from simple rules.
 
-NetLogo is free and supported by Northwestern University. It is available for Windows, Mac, and Linux and is as simple as requesting to download the installer, then running it. After that, an existing model can be imported and modifications made, or users can start from scratch. NetLogo models are written in a language called Scala.
-## NetLogo
-It is a multi-agent programmable modeling environment used to simulate natural and social phenomena. It is an agent-based modeling tool that demonstrates how individual agents follow rules and interact with one another. It is maintained by Northwestern University. NetLogo allows users to run simulations and visualize the results in real time.  
+NetLogo is free and supported by Northwestern University. It is an agent-based modeling tool that demonstrates how individual agents follow rules and interact with one another. It is available for Windows, Mac, and Linux and is as simple as requesting to download the installer, then running it. After that, an existing model can be imported and modifications made, or users can start from scratch. NetLogo models are written in a language called Scala.   
 NetLogo version 6.4 was used to build the Network model and Supply Chain model. Version 6.4 can be downladed at the [NetLogo Download page](https://ccl.northwestern.edu/netlogo/download.shtml).
 
 ## Network Model
