@@ -22,11 +22,9 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 ## Network Model
 ### Network Model variables and parameters
 **Step 1--- Network Construction**
-
-**Setup: Button** Resets the Network construction with 2 nodes. 1 blue node and 1 red node to represent where the vulnerability begins.  
-
-**go: Button** Initiates the creation of nodes that randomly connect to existing nodes in the network. Pressing the button again will pause the node creation process. Generating between 200 and 400 nodes typically results in an ideal visualization of network structure and connectivity.  
-**# of nodes:** Represents the chance the node is fixed.
+**Setup: Button** Resets the Network construction with 2 nodes. 1 blue node and 1 red node to represent where the vulnerability begins.
+**go: Button** Initiates the creation of nodes that randomly connect to existing nodes in the network. Pressing the button again will pause the node creation process. Generating between 200 and 400 nodes typically results in an ideal visualization of network structure and connectivity. 
+**# of nodes:** Shows the number of nodes that are created.
 **redo layout: Button** This button repositions the nodes to improve the visual clarity and organization of the network structure. Press the button again to pause the repositioning of the nodes. 
 **resize nodes: Button** Adjusts the size of each node based on its number of connections. The more connections the bigger the node will be.     
 **3:** Represents the chance the node is fixed.     
