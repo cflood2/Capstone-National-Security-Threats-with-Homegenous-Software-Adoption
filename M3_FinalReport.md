@@ -21,11 +21,13 @@ NetLogo is free and supported by Northwestern University. It is available for Wi
 
 ## Network Model
 ### Network Model variables and parameters
-**User-Nodes:** The number of nodes that represent the number of users within a network.     
-**CrowdStrike-connections:** The number of node connections to the CrowdStrike node. For the outage a large number of connections is used.      
-**Average-node-connection:** The average number of times each node is connected to another node.     
-**bad-update-spread:** This represents the chance that the update was pushed to a connected node.     
-**update-fix-chance:** Represents the chance the node is fixed.     
+**Step 1--- Network Construction**
+**Setup: Button** Resets the Network construction with 2 nodes. 1 blue node and 1 red node to represent where the vulnerability begins.     
+**go: Button** Initiates the creation of nodes that randomly connect to existing nodes in the network. Pressing the button again will pause the node creation process. Generating between 200 and 400 nodes typically results in an ideal visualization of network structure and connectivity.  
+**# of nodes:** Represents the chance the node is fixed.
+**redo layout: Button** This button repositions the nodes to improve the visual clarity and organization of the network structure. Press the button again to pause the repositioning of the nodes. 
+**resize nodes: Button** Adjusts the size of each node based on its number of connections. The more connections the bigger the node will be.     
+**3:** Represents the chance the node is fixed.     
 **recovery-delay:** This mimics the amount of time it takes for the fix to be implemented.      
 
 ## Supply Chain Model
