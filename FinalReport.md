@@ -92,11 +92,15 @@ The most detailed report of our outcomes for each milestone can be found [Here](
 
 ## M3  
 ### Findings of Network Model
+The network model demonstrates how quickly a mistake can propagate through networks. Researchers based this model on a real-world incident, revealing the negative impact and implications. Future attacks will likely draw inspiration from this incident, despite the outage resulting from cyber negligence rather than a cyberattack.
 ### Findings of Supply Chain Model
 ### Summary of Findings/Implications
 
+
 **For Milestone III, our team focused on completing the necessary steps in the last phase of the project. These steps will include deliverables such as testing and validation, user instruction documentation and technical documentation. All other key deliverables, such as the graduate research paper and other documentation will be included in the overall package as the final project deliverables.**
-**During the last several weeks, our team encountered several issues and challenges in completing the final phase of the project. These issues and challenges include availability of personnel, inclement weather to include loss of power, learning curves related to the project and finalizing the research paper. The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and resolutions to assigned tasks for the milestone III deliverable.**
+**During the last several weeks, our team encountered several issues and challenges in completing the final phase of the project. These issues and challenges include availability of personnel, inclement weather to include loss of power, learning curves related to the project and finalizing the research paper. The team was able to overcome these obstacles by conducting meetings to discuss ongoing issues and resolutions to assigned tasks for the milestone III deliverable.**  
+
+**Most organizations see large market share as a positive sign when choosing software, equating it with product reliability and success. However, this widespread adoption creates interconnected systems that are increasingly vulnerable to cyber disruptions. While past disruptions required massive resources, today's attackers can achieve similar damage with minimal effort. The survey reveals a general lack of awareness about these risks. One proposed solution is breaking up overly large corporations using existing antitrust laws, while another is implementing extreme segregation within organizations as they grow or prepare for IPOs to enhance cybersecurity.**  
 
 ## Install and Release
-### Due to objections from team memebr(s), no release version or informatrion will be provided.
+### Due to objections from team member(s), no release version or informatrion will be provided.
