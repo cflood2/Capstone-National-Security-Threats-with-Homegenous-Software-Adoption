@@ -45,7 +45,7 @@ NetLogo is free and supported by Northwestern University. It is an agent-based m
 **update-fix-go: Button** Starts the propagation of the fix turning the nodes green across the network based on the configured delay and update chance. It simulates the recovery process from the vulnerability. The update will start at the Green Triangle Node and propagate only to the red nodes until all red nodes are turned green.  
 **Node Status Over Time: Graph** The graph displays the progression of node states throughout the simulation, tracking the number of vulnerable (red), and recovered (green) nodes over time in ticks.  
 
-### Network Model Scenerios  
+### Network Model Scenerio  
 NetLogo version 6.4 was used to build the Network model and Supply Chain model. Version 6.4 can be downladed at the [NetLogo Download page](https://ccl.northwestern.edu/netlogo/download.shtml).  
 The Network model can be found here at this link [NetLogo Network Model](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M3Docs/New%20Netowrk%20Model.nlogo).  
   
