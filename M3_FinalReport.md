@@ -24,7 +24,9 @@ NetLogo is free and supported by Northwestern University. It is an agent-based m
 
 
 ## Network Model
-### Network Model variables and parameters
+### Network Model variables and parameters  
+![Network Model Figure](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/main/M3Docs/Network%20Model%20Figure.png?raw=true)
+
 **Step 1--- Network Construction**  
 **Setup: Button** Resets the Network construction with 2 nodes. 1 blue node and 1 red node to represent where the vulnerability begins.  
 **go: Button** Initiates the creation of nodes that randomly connect to existing nodes in the network. Pressing the button again will pause the node creation process. Generating between 200 and 400 nodes typically results in an ideal visualization of network structure and connectivity.  
