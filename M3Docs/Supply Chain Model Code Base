@@ -1,0 +1,820 @@
+;; Meatpacking Industry Market Effects model when a cyberattack occurs and how if affects other large firms and the industry as a whole
+globals [
+  total-production               ;; Total meat production across all processors
+  pre-shock-production           ;; Production level before shock for comparison
+  price                          ;; Current market price
+  baseline-price                 ;; Price before any shock
+  shock-occurred?                ;; Boolean to track if a shock has occurred
+  shock-timer                    ;; Countdown for shock duration
+  shock-magnitude                ;; Percentage reduction in production for affected firm
+  affected-firm                  ;; Which firm is affected by the shock
+  custom-tick-counter            ;; Custom tick count (negates errors)
+  phase-indicator                ;; displays current phase (Normal, Attack, Recovery)
+
+
+  ;; Metrics for food security
+  days-of-supply                 ;; estimated days of meat supply in the system
+  food-security-index            ;; Index from 0-100 indicating food security level
+  consumer-panic-level           ;; level of consumer panic/hoarding (0-5)
+  supply-chain-disruption        ;; level of disruption in the broader supply chain
+  regional-impact                ;; regional distribution of impact (list for regions)
+
+  ;; Supply Chain Metrics
+  retail-inventory               ;; Current retail inventory levels
+  baseline-inventory             ;; Normal retail inventory levels
+  farmer-impact                  ;; Impact on upstream farmers/ranchers
+  regional-inventory             ;; regional meat inventory level
+  jbs-2021-scenario?             ;; whether or not to use (toggle) **caused a lot of errors -- needs further work
+
+  ;; Fix to avoid tick issues
+  tick-is-safe                   ;; Flag to ensure tick only runs in observer context
+]
+
+breed [firms firm]       ;; Meatpacking companies
+breed [regions region]   ;; Geographic regions
+
+firms-own [
+  market-share           ;; Percentage of total market held by this firm
+  production-capacity    ;; Maximum production capacity
+  current-production     ;; Current production level
+  efficiency             ;; Production efficiency (cost per unit)
+  is-major?              ;; Whether this is one of the "Big 4" firms
+  affected-by-shock?     ;; Whether this firm is currently affected by a shock
+  recovery-progress      ;; progress toward full recovery (0-5)
+  region-id              ;; Which geogrpahic region this firm operates in
+  company-name           ;; Name of the company (for major firms)
+]
+
+regions-own [
+  region-name            ;; Name of the region
+  regional-production    ;; total production in this region
+  regional-impact-level  ;; how severely this region is impacted
+  transport-links        ;; Number of transport links to other regions
+]
+
+to setup
+    set custom-tick-counter 0
+    set phase-indicator "Normal Operations"
+    set simulation-speed 2
+  
+  clear-all
+
+  ask patches [ set pcolor gray + 2]
+
+  ;; Values for Disruption Type
+  if shock-scenario = "Mild Disruption" [
+    set shock-percentage 10
+    set shock-duration 5
+    set price-elasticity 1.2
+    set recovery-rate 0.2
+    set cascading-effects 0.1
+    set national-security-threshold 30
+  ]
+
+  if shock-scenario = "Severe Crisis" [
+    set shock-percentage 50
+    set shock-duration 30
+    set price-elasticity 2.0
+    set recovery-rate 0.05
+    set cascading-effects 0.4
+    set national-security-threshold 20
+  ]
+
+  if shock-scenario = "Medium Crisis" [
+    set shock-percentage 30
+    set shock-duration 20
+    set price-elasticity 1.5
+    set recovery-rate 0.1
+    set cascading-effects 0.25
+    set national-security-threshold 25
+  ]
+
+  ;; Initialize global variables
+  set total-production 0
+  set shock-occurred? false
+  set shock-duration 20
+  set shock-timer 0
+  set shock-magnitude 0
+  set consumer-panic-level 0
+  set days-of-supply 14           
+  set food-security-index 100      
+  set tick-is-safe true            
+
+  
+  set regional-impact [0 0 0 0]    ;; Midwest, South, West, Northeast
+
+  ;; Set up retail inventory
+  set baseline-inventory 10        
+  set retail-inventory baseline-inventory
+  set farmer-impact 0
+
+  setup-regions
+  
+  create-firms 1 [
+    set market-share 0.24
+    set is-major? true
+    set color red
+    set shape "truck"
+    set size 3 + market-share * 10
+    setxy -10 10
+    set region-id 0  ;; Midwest
+    set recovery-progress 1
+    set company-name "JBS"
+  ]
+
+  create-firms 1 [
+    set market-share 0.22
+    set is-major? true
+    set color blue
+    set shape "truck"
+    set size 3 + market-share * 10
+    setxy 10 10
+    set region-id 2 ;; West
+    set recovery-progress 1
+    set company-name "Tyson Foods"
+  ]
+
+  create-firms 1 [
+    set market-share 0.19
+    set is-major? true
+    set color green
+    set shape "truck"
+    set size 3 + market-share * 10
+    setxy -10 -10
+    set region-id 1 ;; South
+    set recovery-progress 1
+    set company-name "Cargill"
+  ]
+
+  create-firms 1 [
+    set market-share 0.12
+    set is-major? true
+    set color yellow
+    set shape "truck"
+    set size 3 + market-share * 10
+    setxy 10 -10
+    set region-id 3  ;; Northeast
+    set recovery-progress 1
+    set company-name "National Beef"
+  ]
+
+  ;; Small houses are smaller firms that are 23% of market share
+  let remaining-share 1 - (0.24 + 0.22 + 0.19 + 0.12)
+  let num-small-firms 20
+  let small-firm-share remaining-share / num-small-firms
+
+  create-firms num-small-firms [
+    set market-share small-firm-share
+    set is-major? false
+    set color gray
+    set shape "house"
+    set size 1 + market-share * 10
+    set region-id random 4 
+    setxy random-xcor random-ycor
+    set recovery-progress 1
+  ]
+
+  ask firms [
+    set production-capacity market-share * 100
+    set current-production production-capacity
+    set efficiency 0.7 + random-float 0.3
+    set affected-by-shock? false
+  ]
+
+  calculate-total-production
+  set pre-shock-production total-production
+
+  
+  set price 100
+  set baseline-price price
+
+  update-regional-production
+  ;; setup-regional-impact-plot (needs continued work)
+  setup-market-price-plot
+  setup-food-security-dashboard
+  setup-supply-price-plot
+  reset-ticks
+end
+
+to setup-food-security-dashboard
+  set-current-plot "Food Security Dashboard"
+  clear-plot
+
+  create-temporary-plot-pen "Food Security Index"
+  set-plot-pen-color green
+
+  create-temporary-plot-pen "Days of Supply (scaled)"
+  set-plot-pen-color blue
+
+  create-temporary-plot-pen "Supply Chain Health"
+  set-plot-pen-color yellow
+
+  create-temporary-plot-pen "National Security Risk"
+  set-plot-pen-color red
+
+  set-plot-y-range 0 100
+end
+
+to setup-supply-price-plot
+  set-current-plot "Supply-Price Relationship"
+  clear-plot
+
+  create-temporary-plot-pen "Production % of Baseline"
+  set-plot-pen-color green
+
+  create-temporary-plot-pen "Price % of Baseline"
+  set-plot-pen-color red
+
+  set-plot-y-range 0 200
+end
+
+;;to setup-regional-impact-plot (needs continued work)
+;;  set-current-plot "Regional Impact"
+;;  clear-plot
+;;  create-temporary-plot-pen "Midwest"
+;;  set-plot-pen-color red
+;;  set-plot-pen-color blue
+;;  set-plot-pen-color green
+;;  set-plot-pen-color yellow
+;;  set-plot-y-range 0 100
+;;end
+
+to setup-market-price-plot
+  set-current-plot "Market Price"
+  clear-plot
+
+  create-temporary-plot-pen "Current Price"
+  set-plot-pen-color red
+
+  create-temporary-plot-pen "Baseline Price"
+  set-plot-pen-color blue
+  set-plot-y-range 0 300
+  if is-number? baseline-price [
+    set-current-plot-pen "Baseline Price"
+    plot baseline-price
+  ]
+end
+
+
+to setup-regions
+  create-regions 4
+  ask regions [
+    set shape "circle"
+    set size 2
+    set color white
+    set transport-links 3
+    set regional-production 0
+    set regional-impact-level 0
+  ]
+
+  
+  let region-list sort regions
+  ask item 0 region-list [
+    set region-name "Midwest"
+    setxy -17 12
+  ]
+
+  ask item 1 region-list [
+    set region-name "South"
+    setxy -17 -12
+  ]
+
+  ask item 2 region-list [
+    set region-name "West"
+    setxy 17 12
+  ]
+
+  ask item 3 region-list [
+    set region-name "Northeast"
+    setxy 17 -12
+  ]
+end
+
+to go
+  set custom-tick-counter custom-tick-counter + 1
+  let current-tick-value custom-tick-counter
+  if not shock-occurred? and current-tick-value >= shock-start-time and apply-shock? [
+    trigger-shock current-tick-value
+    set phase-indicator "ATTACK PHASE"
+    output-print "CYBERATTACK DETECTED - EMERGENCY PHASE"
+  ]
+
+  if shock-occurred? [
+    if shock-timer = 5 [
+      output-print "Shock Ending in 5 Ticks!"
+      set phase-indicator "RECOVERY PHASE (5 ticks left)"
+    ]
+    if shock-timer = 1 [
+      output-print "Shock has ended. Market stabilizing..."
+      set phase-indicator "RECOVERY PHASE (1 tick left)"
+    ]
+    set shock-timer shock-timer - 1
+    ask firms with [affected-by-shock?] [
+      set recovery-progress recovery-progress + recovery-rate
+      set current-production production-capacity * recovery-progress
+
+      if recovery-progress >= 1 [
+        set recovery-progress 1
+        set affected-by-shock? false
+        set current-production production-capacity
+
+        ;; Restore appearance
+        ifelse is-major? [
+          if market-share = 0.24 [set color red]
+          if market-share = 0.22 [set color blue]
+          if market-share = 0.19 [set color green]
+          if market-share = 0.12 [set color yellow]
+        ] [
+          set color gray
+        ]
+      ]
+    ]
+
+    if shock-timer <= 0 [
+      set shock-occurred? false
+      if count firms with [affected-by-shock?] > 0 [
+        output-print "Shock has ended but firms still recovering"
+        set phase-indicator "POST-SHOCK RECOVERY"
+      ]
+      if not any? firms with [affected-by-shock?] [
+        set price baseline-price
+        output-print "Market has fully recovered - prices returning to normal"
+        set phase-indicator "NORMAL OPERATIONS"
+      ]
+    ]
+
+    update-supply-chain-effects
+  ]
+
+  update-firm-production current-tick-value
+
+  calculate-total-production
+  update-market-shares
+  update-regional-production
+  update-price
+  update-food-security-metrics
+  update-consumer-behavior
+  update-supply-chain-effects
+
+
+  update-display current-tick-value
+  custom-update-plots
+
+  let base-delay simulation-speed
+  if shock-occurred? [
+    set base-delay base-delay * 8
+  ]
+  
+  display
+  wait base-delay
+end
+
+to custom-update-plots
+    carefully [
+    set-current-plot "Food Security Dashboard"
+    set-current-plot-pen "Food Security Index"
+    plot food-security-index
+
+    set-current-plot-pen "Days of Supply (scaled)"
+    plot min list 100 (days-of-supply * 100 / 14)
+
+    set-current-plot-pen "Supply Chain Health"
+    plot 100 - (supply-chain-disruption * 100)
+
+    set-current-plot-pen "National Security Risk"
+    plot national-security-risk
+  ] []
+
+  carefully [
+    set-current-plot "Supply-Price Relationship"
+
+    set-current-plot-pen "Production % of Baseline"
+    ifelse shock-occurred? [
+      plot max list 10 (100 - shock-percentage)
+    ][
+      plot 100
+    ]
+
+    set-current-plot-pen "Price % of Baseline"
+    ifelse baseline-price > 0
+      [ plot (price / baseline-price) * 100 ]
+      [ plot 100 ]
+  ] []
+
+  carefully [
+    set-current-plot "Market Price"
+
+    set-current-plot-pen "Current Price"
+    plot price
+
+    set-current-plot-pen "Baseline Price"
+    plot baseline-price
+  ] []
+
+  carefully [
+    set-current-plot "Regional Impact"
+    if length regional-impact >= 4 [
+      set-current-plot-pen "Midwest"
+      plot item 0 regional-impact
+
+      set-current-plot-pen "South"
+      plot item 1 regional-impact
+
+      set-current-plot-pen "West"
+      plot item 2 regional-impact
+
+      set-current-plot-pen "Northeast"
+      plot item 3 regional-impact
+    ]
+  ] []
+end
+
+to update-firm-production [current-tick-value]
+  ask firms [
+    ifelse affected-by-shock? [
+      set current-production production-capacity * (recovery-progress * 0.2)
+    ] [
+      ifelse shock-occurred? [
+        let boost 1 + (shock-magnitude * 0.2)
+        set current-production min list (production-capacity * boost) (production-capacity * 1.1)
+      ] [
+        set current-production production-capacity
+      ]
+    ]
+  ]
+end
+
+to update-price
+  let effective-demand 1 + consumer-panic-level
+  ifelse total-production > 0 [
+    let production-ratio pre-shock-production / total-production
+    if price-elasticity < 0 [set price-elasticity abs price-elasticity]
+    set price baseline-price * (production-ratio * effective-demand) ^ price-elasticity
+  ] [
+    set price baseline-price * 10
+  ]
+end
+
+to update-regional-production
+  ask regions [
+    set regional-production sum [current-production] of firms with [region-id = [who] of myself]
+  ]
+  set regional-impact []
+
+  foreach (range 0 4) [region-idx ->
+    let normal-production sum [production-capacity] of firms with [region-id = region-idx]
+    let current-regional-production sum [current-production] of firms with [region-id = region-idx]
+
+    let impact-percentage 0
+    ifelse normal-production > 0 [
+      set impact-percentage (normal-production - current-regional-production) / normal-production * 100
+    ] [
+      set impact-percentage 0
+    ]
+
+    set regional-impact lput impact-percentage regional-impact
+
+    if any? regions with [who = region-idx] [
+      ask regions with [who = region-idx] [
+        set regional-impact-level impact-percentage / 100
+        set color scale-color red regional-impact-level 0 1
+      ]
+    ]
+  ]
+end
+
+to update-market-shares
+  let total-current-production sum [current-production] of firms
+  if total-current-production > 0 [
+    ask firms [
+      set market-share current-production / total-current-production
+      set size 1 + market-share * 15
+    ]
+  ]
+end
+
+to update-supply-chain-effects
+  let inventory-reduction-rate 1 + consumer-panic-level
+  set retail-inventory max list 0 (retail-inventory - (inventory-reduction-rate / 10))
+  ifelse shock-occurred? [
+    set farmer-impact min list 1 (farmer-impact + 0.05)
+  ] [
+    set farmer-impact max list 0 (farmer-impact - 0.02)
+  ]
+
+  set supply-chain-disruption (
+    (ifelse-value (pre-shock-production > 0) [production-loss-percentage / 100] [0]) * 0.6 +
+    (ifelse-value (baseline-inventory > 0) [1 - (retail-inventory / baseline-inventory)] [0]) * 0.2 +
+    farmer-impact * 0.2
+  )
+end
+
+to update-food-security-metrics
+  ifelse pre-shock-production > 0 [
+    set days-of-supply retail-inventory / (1 + consumer-panic-level * 0.3)
+  ] [
+    set days-of-supply retail-inventory
+  ]
+
+  let production-factor ifelse-value (pre-shock-production > 0)
+                      [total-production / pre-shock-production] [1]
+  let price-factor ifelse-value (price > 0)
+                 [baseline-price / price] [1]
+  let inventory-factor ifelse-value (baseline-inventory > 0)
+                    [retail-inventory / baseline-inventory] [1]
+  let regional-factor []
+  let regional-weights []
+  let i 0
+  repeat 4 [
+    let r-impact 0
+    if i < length regional-impact [
+      set r-impact item i regional-impact
+    ]
+    let r-weight region-production-share i
+
+    set regional-weights lput r-weight regional-weights
+    let historical-pattern expected-min-security + (100 - expected-min-security) * recovery-curve
+    set food-security-index food-security-index * 0.7 + historical-pattern * 0.3
+    set i i + 1
+  ]
+
+  set production-factor 0
+  ifelse pre-shock-production > 0 [
+    let prod-ratio total-production / pre-shock-production
+    set production-factor ifelse-value (prod-ratio >= 0.95)
+      [1.0] 
+      [ifelse-value (prod-ratio >= 0.8)
+      [0.9 - ((0.95 - prod-ratio) * 2.5)] 
+      [0.6 - ((0.8 - prod-ratio) * 3.5)]] 
+  ][
+    set production-factor 0
+  ]
+  set price-factor 0
+  ifelse price > 0 and baseline-price > 0 [
+    let price-ratio baseline-price / price
+    let panic-modifier (1 - consumer-panic-level * 0.2)
+    set price-factor ifelse-value (price-ratio >= 0.9)
+      [1.0 * panic-modifier]
+      [ifelse-value (price-ratio >= 0.7)
+      [(0.9 - ((0.9 - price-ratio) * 3)) * panic-modifier]
+      [(0.3 - ((0.7 - price-ratio) * 2.5)) * panic-modifier]]
+  ][
+    set price-factor 0
+  ]
+  let major-firm-impact 0
+  if any? firms with [is-major? and affected-by-shock?] [
+    let affected-share sum [market-share] of firms with [is-major? and affected-by-shock?]
+    set major-firm-impact affected-share * 50  
+  ]
+
+  set food-security-index min list 100 (max list 0 (
+    production-factor * 30 +  
+    price-factor * 20 +       
+    inventory-factor * 30 +   
+    (1 - (weighted-impact / 100)) * 20 - major-firm-impact
+  ))
+end
+
+to update-consumer-behavior
+  let price-panic 0
+  if price > baseline-price * 1.2 [
+    set price-panic (price - baseline-price * 1.2) / baseline-price
+  ]
+
+  let inventory-panic 0
+  if retail-inventory < baseline-inventory * 0.7 [
+    set inventory-panic (1 - (retail-inventory / (baseline-inventory * 0.7)))
+  ]
+
+  set consumer-panic-level min list 1 (max list 0 (
+    consumer-panic-level * 0.8 +  
+    price-panic * 0.1 +  
+    inventory-panic * 0.1
+  ))
+end
+
+to calculate-total-production
+  set total-production sum [current-production] of firms
+end
+
+to trigger-shock [current-tick-value]
+  calculate-total-production
+  set pre-shock-production total-production
+
+  set shock-occurred? true
+  set shock-timer shock-duration
+  set shock-magnitude shock-percentage / 100
+
+  output-print (word "ALERT: Cyberattack detected at tick " current-tick-value "!")
+
+  ifelse shock-firm = "Random" [
+    set affected-firm one-of firms with [is-major?]
+  ] [
+    let target-share 0
+    if shock-firm = "JBS (24%)" [ set target-share 0.24 ]
+    if shock-firm = "Tyson Foods (22%)" [ set target-share 0.22 ]
+    if shock-firm = "Cargill (19%)" [ set target-share 0.19 ]
+    if shock-firm = "National Beef (12%)" [ set target-share 0.12 ]
+
+    set affected-firm one-of firms with [market-share = target-share]
+
+    if affected-firm = nobody [
+      set affected-firm one-of firms with [is-major?]
+    ]
+  ]
+  if affected-firm != nobody [
+    ask affected-firm [
+      set affected-by-shock? true
+      set recovery-progress 0
+      ifelse company-name != "" [
+        output-print (word company-name " operations paralyzed by cyberattack!")
+        output-print (word company-name " produces  " precision (market-share * 100) 1 "% of national meat supply")
+      ][
+        output-print (word "Firm " who " operations paralyzed by cyberattack!")
+        output-print (word "This firm produces " precision (market-share * 100) 1 "% of national meat supply")
+      ]
+      set color orange
+      set current-production production-capacity * (1 - shock-magnitude)
+    ]
+  ]
+end
+
+
+to update-display [current-tick-value]
+  ask regions [
+    let normalized-impact regional-impact-level
+    ifelse normalized-impact > 0 [
+      ifelse normalized-impact < 0.2 [
+        set color green - 1
+    ][
+      ifelse normalized-impact < 0.5 [
+        set color yellow - 1
+      ][
+        set color red - 1
+      ]
+    ]
+    ] [
+      set color white
+    ]
+    set size 4
+    set shape "circle"
+
+    set label (word region-name "\n"
+      precision (regional-impact-level * 100) 0 "% impact")
+    set label-color black
+  ]
+
+  
+  ask firms [
+    set size 0.8 + market-share * 8
+    ifelse affected-by-shock? [
+      ifelse (current-tick-value mod 4 < 2) [
+        set color scale-color orange recovery-progress 0 1
+      ][
+        set color scale-color yellow recovery-progress 0 1
+      ]
+    ][
+      ifelse is-major? [
+        if market-share = 0.24 [set color red - 1]
+        if market-share = 0.22 [set color blue - 1]
+        if market-share = 0.19 [set color green - 1]
+        if market-share = 0.12 [set color yellow - 1]
+      ][
+        set color gray - 1
+      ]
+    ]
+  ]
+end
+
+to-report hhi
+  update-market-shares
+  report sum [market-share ^ 2 * 10000] of firms
+end
+
+to-report cr4
+  update-market-shares
+  report sum [market-share] of firms with [is-major?] * 100
+end
+
+to-report production-loss-percentage
+  ifelse pre-shock-production > 0 [
+    report (pre-shock-production - total-production) / pre-shock-production * 100
+  ] [
+    report 0
+  ]
+end
+
+to-report price-increase-percentage
+  ifelse baseline-price > 0 [
+    report (price - baseline-price) / baseline-price * 100
+  ] [
+    report 0
+  ]
+end
+
+to-report national-security-risk
+  let base-risk 100 - food-security-index
+  let severe-region-count count regions with [regional-impact-level > 0.4]
+  let max-regional-impact 0
+  if length regional-impact > 0 [set max-regional-impact max regional-impact]
+  let concentration-amplifier 1 + ((cr4 - 70) / 100) 
+  let inventory-depletion 0
+  ifelse baseline-inventory > 0 [
+    set inventory-depletion (1 - (retail-inventory / baseline-inventory))
+  ][
+    set inventory-depletion 0.5
+  ]
+
+  let recovery-time recovery-time-estimate
+  let recovery-factor min list 1 (recovery-time / 25) 
+
+  let panic-amplifier 1 + (consumer-panic-level * 1.5)
+
+  let persistent-risk 0
+  if shock-occurred? [
+    set persistent-risk min list 20 (shock-duration - shock-timer) * 0.5
+  ]
+
+  let raw-risk (
+    base-risk * 0.35 +                      ;; 35% - Food security is primary factor
+    max-regional-impact * 0.15 +            ;; 15% - Worst affected region
+    severe-region-count * 4 * 0.1 +         ;; 10% - Number of severely affected regions
+    supply-chain-disruption * 25 * 0.15 +   ;; 15% - Supply chain disruption
+    inventory-depletion * 25 * 0.1 +        ;; 10% - Inventory depletion
+    recovery-factor * 15 +                  ;; 15% - Recovery timeline
+    persistent-risk                         
+  ) * concentration-amplifier * panic-amplifier
+
+  ifelse food-security-index < national-security-threshold [
+    let threshold-factor 1 + ((national-security-threshold - food-security-index) / national-security-threshold) ^ 1.5
+    report min list 100 (raw-risk * threshold-factor)
+  ][
+    report min list 100 (max list 0 raw-risk)
+  ]
+end
+
+to-report region-production-share [region-index]
+  let regional-prod sum [current-production] of firms with [region-id = region-index]
+  ifelse total-production > 0 [
+    report regional-prod / total-production * 100
+  ][
+    report 0
+  ]
+end
+
+to-report regional-risk-index
+  report regional-impact
+end
+
+to-report most-affected-region
+  let max-impact max regional-impact
+  let max-region position max-impact regional-impact
+  let region-names ["Midwest" "South" "West" "Northeast"]
+  report item max-region region-names
+end
+
+to-report supply-chain-health
+  report 100 - (supply-chain-disruption * 100)
+end
+
+to-report recovery-time-estimate
+  let lowest-recovery min [recovery-progress] of firms
+  ifelse lowest-recovery < 1 [
+    report ceiling ((1 - lowest-recovery) / recovery-rate)
+  ] [
+    report 0
+  ]
+end
+
+to-report weighted-impact
+  let weighted-sum 0
+  let i 0
+  repeat min list (length regional-impact) 4 [
+    let r-impact item i regional-impact
+    let r-weight region-production-share i
+    set weighted-sum weighted-sum + (r-impact * r-weight / 100)
+    set i i + 1
+  ]
+  report weighted-sum
+end
+
+to-report expected-min-security
+  ;; used in food security metric
+  report 40
+end
+
+to-report recovery-curve
+  ifelse shock-occurred? [
+    report shock-timer / shock-duration
+  ] [
+    report 1.0
+  ]
+end
+
+to-report current-tick-display
+  report (word "Tick: " custom-tick-counter " | Phase: " phase-indicator)
+end
+
+to-report current-tick
+  report custom-tick-counter
+end
