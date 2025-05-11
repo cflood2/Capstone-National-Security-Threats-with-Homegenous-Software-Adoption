@@ -63,7 +63,11 @@ The Network model can be found here at this link [NetLogo Network Model](https:/
       
 
 ## Supply Chain Model  
-![Supply Chain Model Dashboard](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/ba756648ff734503c346e38c817ed85221622000/M3Docs/NetLogo%20screen.png)
+![Supply Chain Model Dashboard](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/ba756648ff734503c346e38c817ed85221622000/M3Docs/NetLogo%20screen.png)  
+The Supply Chain model can be found here [NetLogo Supply Chain Model](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/ba756648ff734503c346e38c817ed85221622000/M3Docs/Supply%20Chain%20Model%20Code%20Base)  
+The Supply Chain Control Manual can be found [Here](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/ba756648ff734503c346e38c817ed85221622000/M3Docs/Supply%20Chain%20Model%20Control%20Manual.md)  
+The Supply Chain Setup Guide can be found [Here](https://github.com/cflood2/Capstone-National-Security-Threats-with-Homegenous-Software-Adoption/blob/ba756648ff734503c346e38c817ed85221622000/M3Docs/Supply%20Chain%20Model%20Setup%20Instructions.md)  
+
 ### Below is a detailed explanation of each parameter in the Supply Chain Model  
 **Initial Conditions:** ​Each firm starts at full production capacity, 14 days of meat supply in the system, and has a food security index of 100 (best case).  
 **Shock Scenarios:** Mild – A small-scale attack with 10% production loss and a 5 tick recovery.​     
