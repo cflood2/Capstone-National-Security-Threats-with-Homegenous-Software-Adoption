@@ -52,8 +52,9 @@ The Network model can be found here at this link [NetLogo Network Model](https:/
 **Crowd Strike Scenerio---** This scenerio is designed to simulate the network vulnerabilities associated with the CrowdStrike outage. It shows the effects of a potential cyberattack by illustrating how a network can be brought down, and the time it takes to bring the network back online.   
 - Step 2 bad-update-percent slider should be set at 70%. This shows that not all connections are part of the crowdstrike program and that not all customers received the update. 
 - Step 3 set the update-fix-chance slider to 1.7 and the update-delay to 4. 
-- You can click the update-fix-go button to stop the model once all red nodes have turned green.  
-Conclusion of Scenerio Crowd Strike is you will see the propagation of the bad update by the red nodes. Many nodes remain blue, indicating they never received the bad update and therefore do not require a fix. To simulate the real-world conditions experienced by CrowdStrike customers, the update-fix-chance was set to a lower value to reflect the recovery update that was pushed. The graph is measured in ticks, and each tick is equal to 30 min. All of the red nodes should turn into green nodes in around 800 ticks. This is about 2 weeks and represents the time to fix 99% of all computers/servers that received the realworld update fix from crowdstrike. 
+- You can click the update-fix-go button to stop the model once all red nodes have turned green.
+
+**Conclusion of Scenerio Crowd Strike** is you will see the propagation of the bad update by the red nodes. Many nodes remain blue, indicating they never received the bad update and therefore do not require a fix. To simulate the real-world conditions experienced by CrowdStrike customers, the update-fix-chance was set to a lower value to reflect the recovery update that was pushed. The graph is measured in ticks, and each tick is equal to 30 min. All of the red nodes should turn into green nodes in around 800 ticks. This is about 2 weeks and represents the time to fix 99% of all computers/servers that received the realworld update fix from crowdstrike. 
 
 
     
