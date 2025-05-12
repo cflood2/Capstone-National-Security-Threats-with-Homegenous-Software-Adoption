@@ -1,5 +1,5 @@
-# Meatpacking Industry Market Effects Model
-## Complete Control Manual
+# Supply Chain Model
+## Control Manual
 
 This document provides a comprehensive guide to all controls and functions available in the Meatpacking Industry Market Effects model.
 
